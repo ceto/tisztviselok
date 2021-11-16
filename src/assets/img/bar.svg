@@ -1,0 +1,34 @@
+<svg class="theaxis" viewBox="0 0 702 20" fill="black" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <mask id="barstripes" fill="black">
+            <rect fill="white" x="0" y="0" width="100%" height="100%" />
+            <rect x="4.1666%" y="0" width="1" height="100%" />
+            <rect x="8.3333%" y="0" width="1" height="100%" />
+            <rect x="12.5%" y="0" width="1" height="100%" />
+            <rect x="16.6666%" y="0" width="1" height="100%" />
+            <rect x="20.8333%" y="0" width="1" height="100%" />
+            <rect x="25%" y="0" width="1" height="100%" />
+            <rect x="29.1666%" y="0" width="1" height="100%" />
+            <rect x="33.3333%" y="0" width="1" height="100%" />
+            <rect x="37.5%" y="0" width="1" height="100%" />
+            <rect x="41.6666%" y="0" width="1" height="100%" />
+            <rect x="45.8333%" y="0" width="1" height="100%" />
+            <rect x="50%" y="0" width="1" height="100%" />
+            <rect x="54.1666%" y="0" width="1" height="100%" />
+            <rect x="58.3333%" y="0" width="1" height="100%" />
+            <rect x="62.5%" y="0" width="1" height="100%" />
+            <rect x="66.6666%" y="0" width="1" height="100%" />
+            <rect x="70.8333%" y="0" width="1" height="100%" />
+            <rect x="75%" y="0" width="1" height="100%" />
+            <rect x="79.1666%" y="0" width="1" height="100%" />
+            <rect x="83.3333%" y="0" width="1" height="100%" />
+            <rect x="87.5%" y="0" width="1" height="100%" />
+            <rect x="91.6666%" y="0" width="1" height="100%" />
+            <rect x="95.8333%" y="0" width="1" height="100%" />
+        </mask>
+    </defs>
+    <g mask="url(#barstripes)">
+        <rect class="base" fill="#cecece" x="0" y="0" width="100%" height="100%" />
+        <rect class="progress" x="25%" y="0" width="41.666%" height="100%"  />
+    </g>    
+</svg>

@@ -1,0 +1,16 @@
+svg.theaxis {
+    font-family: $fontrobo;
+    line-height: 1;
+    font-size: 1.125rem; 
+    fill: currentColor;
+    @include breakpoint(768px) {
+        font-size: .875rem; ;
+    }
+}
+
+svg.svgbar {
+    display: block;
+    .progress {
+        // filter: brightness(75%) saturate(150%);
+    }
+}

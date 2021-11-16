@@ -1,0 +1,52 @@
+h1,h2,h3,h4,h5,h6 {
+    font-family: $fontrobo;
+    font-weight: $fw-bold;
+    line-height: 1.2;
+    margin: 0 0 .75rem;
+}
+ul,ol {
+    margin:0;
+    padding:0;
+}
+
+p {
+    margin:0 0 1em;
+}
+
+a {
+    color: inherit;
+    &:hover, &:focus {
+        // color: $color-blue;
+    }
+}
+
+.pageintro {
+    font-size: 1.125rem;
+    a[class^="cl"] {
+        background-color: $cl-gray;
+        text-decoration: none;
+        white-space: nowrap;
+        font-weight: $fw-bold;
+        font-family: $fontrobo;
+
+
+
+        &:hover, &:focus {
+            filter: grayscale(1) invert(1);
+        }
+    
+        &.cl1 {
+            background-color: $cl-1;
+        };
+        &.cl2 {
+            background-color: $cl-2;
+        };
+        &.cl3 {
+            background-color: $cl-3;
+        };
+        &.cl4 {
+            background-color: $cl-4;
+        };
+    }
+
+}

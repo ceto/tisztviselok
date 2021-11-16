@@ -1,0 +1,28 @@
+.office {
+    margin: 2rem 0;
+}
+.office__title {
+    font-size: 1.25rem;
+    margin:0 0 0;
+}
+.office__intro {
+    font-family: $fontrobo;
+    font-size: 1rem;
+    p {
+        line-height: 1.4;
+    }
+}
+
+.office__data {
+    .svgbar {
+        height: .75rem;
+    }
+    p {
+        text-align: center;
+        line-height: 1.2;
+        font-size: .875rem;
+        padding:.25em 1em .25em;
+        margin:0 auto .5em;
+        max-width: 30em;
+    }
+}

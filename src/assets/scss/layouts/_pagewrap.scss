@@ -1,0 +1,107 @@
+
+.pagewrap {
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    margin:0 auto;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    width: 100%;
+
+
+    @include breakpoint($bp-medium) {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    @include breakpoint($bp-xlarge) {
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+    }
+
+
+    @include breakpoint(120em) {
+        padding-left: calc(50% - #{$global-width/2});
+        padding-right: calc(50% - #{$global-width/2});
+
+    }
+
+    & & {
+
+        margin-left:-3.03191489362%;
+        margin-right:-3.03191489362%;
+        width:106.0638297872%;
+        @include breakpoint($bp-medium) {
+            margin-left: -5.5556%;
+            margin-right: -5.5556%;
+            width:111.111%;
+        }
+        @include breakpoint($bp-tablet) {
+
+        }
+
+        @include breakpoint($bp-xlarge) {
+            margin-left:auto;
+            margin-right: auto;
+            width:100%;
+        }
+        @include breakpoint(95em) {
+            padding-left: 7.5%;
+            padding-right: 7.5%;
+
+        }
+    }
+
+    &.notop {
+        padding-top: 0;
+    }
+    &.nobottom {
+        padding-bottom: 0;
+    }
+
+    &.nohpad {
+        padding-left: 0;
+        padding-right: 0;
+        @include breakpoint(95em) {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+
+    &.novpad {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    &.short {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}
+
+
+
+
+
+
+.narrowwrap {
+    max-width:  #{$global-width*0.75};
+    margin-left:auto;
+    margin-right:auto;
+    &.left {
+        margin-left: 0;;
+    }
+    &.right {
+        margin-right: 0;
+    }
+}
+
+.xnarrowwrap {
+    max-width:  #{$global-width*0.5};
+    margin-left:auto;
+    margin-right:auto;
+    &.left {
+        margin-left: 0;
+    }
+}
+

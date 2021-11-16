@@ -1,0 +1,55 @@
+html {
+    box-sizing: border-box;
+    font-size: $global-font-size;
+    color: $cl-body-font-color;
+    background-color: $cl-body-background;
+
+    @include breakpoint(60em) {
+        font-size: $global-font-size*1.25;
+    }
+    @include breakpoint(112em) {
+        font-size: $global-font-size*1.333;
+    }
+}
+
+
+
+// Set box-sizing globally to handle padding and border widths
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-family: $fontfira;
+    font-weight: $fw-normal;
+    line-height: 1.4;
+    font-feature-settings: "lnum" 1;
+    -webkit-font-smoothing: antialiased; // sass-lint:disable-line no-vendor-prefixes
+    -moz-osx-font-smoothing: grayscale; // sass-lint:disable-line no-vendor-prefixes
+
+    &.is-frozen {
+        overflow: hidden;
+    }
+}
+
+
+
+
+
+
+img {
+    // Get rid of gap under images by making them display: inline-block; by default
+    display: inline-block;
+    vertical-align: middle;
+
+    // Grid defaults to get images and embeds to work properly
+    max-width: 100%;
+    height: auto;
+    -ms-interpolation-mode: bicubic;
+    image-rendering: -webkit-optimize-contrast;
+  }
