@@ -3,10 +3,10 @@ module.exports = function(color='', start=25, stop=75) {
     var hex='';
     switch (color) {
         case 'cl1':
-            hex = '#F8A0D5';
+            hex = '#CEDED6';
         break;
         case 'cl2':
-            hex = '#CECBE1';
+            hex = '#CBE3F6';
         break;
         case 'cl3':
             hex = '#F4BDB9';

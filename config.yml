@@ -25,3 +25,5 @@ PATHS:
   # Paths to JavaScript entry points for webpack to bundle modules
   entries:
     - "src/assets/js/app.js"
+  # Deploy url on github
+  cname: "tisztviselok2022.szabogabi.com"

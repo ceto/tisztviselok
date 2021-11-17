@@ -1,14 +1,14 @@
 html {
     box-sizing: border-box;
-    font-size: $global-font-size;
+    font-size: $fontsizebase;
     color: $cl-body-font-color;
     background-color: $cl-body-background;
 
     @include breakpoint(60em) {
-        font-size: $global-font-size*1.25;
+        font-size: $fontsizebase*1.25;
     }
     @include breakpoint(112em) {
-        font-size: $global-font-size*1.333;
+        font-size: $fontsizebase*1.333;
     }
 }
 
@@ -52,4 +52,11 @@ img {
     height: auto;
     -ms-interpolation-mode: bicubic;
     image-rendering: -webkit-optimize-contrast;
+  }
+
+
+  .chartfig {
+    margin:0;
+    padding:1em 1.5em;
+    background-color: $cl-gray-xlight;
   }

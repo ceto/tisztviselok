@@ -1,4 +1,4 @@
-$global-font-size: 14px;
+$fontsizebase: 16px;
 
 $fontrobo: 'Roboto Condensed', sans-serif;
 $fontfira: 'Fira Sans', sans-serif;
@@ -10,13 +10,14 @@ $fw-normal: 400;
 $cl-white: #fefefe;
 $cl-black: #0a0a0a;
 
-$cl-1: #F8A0D5;
-$cl-2: #CECBE1;
+$cl-1: #CEDED6;
+$cl-2: #CBE3F6;
 $cl-3: #F4BDB9;
 $cl-4: #FCDC73;
 $cl-gray: #666666;
 $cl-gray-dark: #323232;
 $cl-gray-light: #ababab;
+$cl-gray-xlight: #efefef;
 $cl-body-font-color: $cl-black;
 $cl-body-background: $cl-white;
 

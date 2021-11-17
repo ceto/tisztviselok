@@ -1,5 +1,14 @@
 .chapter {
-    margin: 3rem 0;
+    margin: 2rem 0;
+
+
+
+    // .sticky {
+    //     opacity: 0;
+    //     &.is-stuck {
+    //         opacity: 1;
+    //     }
+    // }
 }
 .chapter__title {
     position: relative;
@@ -47,7 +56,28 @@
 .chapter__intro {
     font-family: $fontrobo;
     font-size: 1rem;
+    margin:0 0 2rem;
     p {
         line-height: 1.4;
     }
+}
+
+.chapter__data {
+    position: relative;
+    padding:1rem 0;
+    &::before {
+        z-index: -1;
+        position: absolute;
+        content:'';
+        top:0;
+        left:50%;
+        bottom:4.333rem;
+        width: 1px;
+        border-left:1px dashed $cl-gray-light;
+    }
+}
+
+
+.sticky.valasztasok {
+    
 }

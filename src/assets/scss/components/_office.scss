@@ -1,13 +1,16 @@
 .office {
     margin: 2rem 0;
+    text-shadow: 1px 1px 0 $cl-body-background, -1px -1px 0 $cl-body-background, 1px -1px 0 $cl-body-background, -1px 1px 0 $cl-body-background;
 }
 .office__title {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     margin:0 0 0;
+    
 }
 .office__intro {
     font-family: $fontrobo;
     font-size: 1rem;
+
     p {
         line-height: 1.4;
     }
@@ -18,9 +21,10 @@
         height: .75rem;
     }
     p {
+        font-family: $fontrobo;
         text-align: center;
         line-height: 1.2;
-        font-size: .875rem;
+        font-size: .75rem;
         padding:.25em 1em .25em;
         margin:0 auto .5em;
         max-width: 30em;

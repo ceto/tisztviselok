@@ -13,6 +13,7 @@ import named         from 'vinyl-named';
 import autoprefixer  from 'autoprefixer';
 import imagemin      from 'gulp-imagemin';
 
+import ghpages       from 'gh-pages';
 
 const sass = require('gulp-sass');
 const postcss = require('gulp-postcss');
@@ -45,6 +46,21 @@ gulp.task('build',
 gulp.task('default',
   gulp.series('build', server, watch)
 );
+
+
+// 'gulp deploy' -- pushes your dist folder to Github
+gulp.task('deploy',
+  gulp.series('build', createcname, deployment)
+);
+
+function createcname(done) {
+    fs.writeFile(PATHS.dist + '/CNAME', PATHS.cname, done);
+}
+
+function deployment() {
+  return ghpages.publish(PATHS.dist);
+};
+
 
 // Delete the "dist" folder
 // This happens every time a build starts
