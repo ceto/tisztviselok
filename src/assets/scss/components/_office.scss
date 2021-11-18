@@ -4,7 +4,7 @@
 }
 .office__title {
     font-size: 1.125rem;
-    margin:0 0 0;
+    margin:0 0 .25em;
     
 }
 .office__intro {
@@ -22,11 +22,11 @@
     }
     p {
         font-family: $fontrobo;
-        text-align: center;
+        text-align: right;
         line-height: 1.2;
         font-size: .75rem;
-        padding:.25em 1em .25em;
-        margin:0 auto .5em;
-        max-width: 30em;
+        padding:.25em 0 .25em;
+        margin:0 0 .5em auto;
+        max-width: 26em;
     }
 }
