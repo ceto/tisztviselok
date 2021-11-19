@@ -5,7 +5,7 @@
     p {
         position: relative;
         line-height: 1.2;
-        font-size: .75rem;  
+        font-size: .9375rem;  
         font-family: $fontrobo;
         color: $cl-gray;
   
@@ -26,12 +26,12 @@
 svg.theaxis {
     font-family: $fontrobo;
     line-height: 1;
-    font-size: 1rem; 
+    font-size: .9375rem; 
     width:100%;
     display: block;
     fill: currentColor;
 
-    @include breakpoint(60em) {
+    @include breakpoint($bp-tablet) {
         font-size: .75rem; ;
     }
 
@@ -40,7 +40,10 @@ svg.theaxis {
 svg.svgbar {
     display: block;
     .progress {
-        // filter: brightness(75%) saturate(150%);
+
+
+        
+       
     }
 }
 

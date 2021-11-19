@@ -12,13 +12,15 @@
 }
 .chapter__title {
     position: relative;
-    font-size: 1.5rem;
-    // font-weight: $fw-normal;
+    font-size: 1rem;
+    line-height: $global-lineheight;
+    font-weight: $fw-normal;
+    font-family: $fontfira;
     margin: 0 0 0;
     width: max-content;
     max-width: calc(66.666% - 1em);
     background-color: $cl-gray;
-    padding:.25em 0;
+    padding:.125em 0;
     &:before {
         z-index: -1;
         content: '';
@@ -30,10 +32,10 @@
         height: 100%;
         background-color: inherit;
         box-shadow: .125em .125em .25em -.125em rgba(#000,.25);
-        // @include breakpoint(768px) {
-        //     width:auto;
-        //     left:-1.5em;
-        // }
+        @include breakpoint($bp-tablet) {
+            width:auto;
+            left:-.5em;
+        }
     }
 
 
@@ -51,6 +53,7 @@
     };
 
 }
+
 .ctitlewrap.sticky.is-stuck {
     z-index: 6;
     .chapter__title {
@@ -67,12 +70,13 @@
         }
     }
 }
+
 .chapter__intro {
     font-family: $fontrobo;
     font-size: 1rem;
     margin:.5rem 0 2rem;
     p {
-        line-height: 1.4;
+        line-height: 1.5;
     }
 }
 

@@ -4,11 +4,11 @@ html {
     color: $cl-body-font-color;
     background-color: $cl-body-background;
 
-    @include breakpoint(60em) {
-        font-size: $fontsizebase*1.25;
+    @include breakpoint($bp-tablet) {
+        font-size: $fontsizebase*1.066667;
     }
-    @include breakpoint(112em) {
-        font-size: $fontsizebase*1.333;
+    @include breakpoint($bp-xxlarge) {
+        font-size: $fontsizebase*1.2;
     }
 }
 
@@ -27,7 +27,7 @@ body {
     padding: 0;
     font-family: $fontfira;
     font-weight: $fw-normal;
-    line-height: 1.4;
+    line-height: $global-lineheight;
     font-feature-settings: "lnum" 1;
     -webkit-font-smoothing: antialiased; // sass-lint:disable-line no-vendor-prefixes
     -moz-osx-font-smoothing: grayscale; // sass-lint:disable-line no-vendor-prefixes
