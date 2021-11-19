@@ -6,8 +6,6 @@
         "nevpoziciok": [
             {
                 "nevpozicio": "Domokos László (elnök)",
-                "rangestart": "2",
-                "rangeend": "52",
                 "datestart": "2010.07.05.",
                 "dateend": "2022.07.05."
             }
@@ -20,8 +18,6 @@
         "nevpoziciok": [
             {
                 "nevpozicio": "Dr. Kovács Árpád (elnök)",
-                "rangestart": "8.333",
-                "rangeend": "58.4",
                 "datestart": "2012.01.10.",
                 "dateend": "2024.01.10."
             }
@@ -34,8 +30,6 @@
         "nevpoziciok": [
             {
                 "nevpozicio": "dr. Varga Zs. András (elnök)",
-                "rangestart": "12.5",
-                "rangeend": "83.5",
                 "datestart": "2021.01.02.",
                 "dateend": "2029.01.02."
             }
@@ -48,8 +42,6 @@
         "nevpoziciok": [
             {
                 "nevpozicio": "dr. Polt Péter (Legfőbb Ügyész)",
-                "rangestart": "4.42",
-                "rangeend": "78.65",
                 "datestart": "2010.12.14.",
                 "dateend": "2028.12.15."
             }
@@ -62,8 +54,6 @@
         "nevpoziciok": [
             {
                 "nevpozicio": "Dr. Senyei György Barna (elnök)",
-                "rangestart": "12.5",
-                "rangeend": "83.5",
                 "datestart": "2019.12.10.",
                 "dateend": "2028.12.10."
             }
@@ -76,8 +66,6 @@
         "nevpoziciok": [
             {
                 "nevpozicio": "dr. Péterfalvi Attila (elnök)",
-                "rangestart": "12.5",
-                "rangeend": "83.5",
                 "datestart": "2012.01.01.",
                 "dateend": "2030.01.01."
             }
@@ -90,8 +78,6 @@
         "nevpoziciok": [
             {
                 "nevpozicio": "Kádár Andrea Beatrix  (főigazgató, 2022-től elnök)",
-                "rangestart": "12.5",
-                "rangeend": "83.5",
                 "datestart": "2021.09.29.",
                 "dateend": "2031.01.01."
             }
@@ -104,8 +90,6 @@
         "nevpoziciok": [
             {
                 "nevpozicio": "Horváth Péter János (elnök)",
-                "rangestart": "12.5",
-                "rangeend": "83.5",
                 "datestart": "2020.07.13.",
                 "dateend": "2027.07.13."
             }
@@ -118,8 +102,6 @@
         "nevpoziciok": [
             {
                 "nevpozicio": "dr. Karas Monika (elnök) idő előtt lemondott, újabb kinevezés várható, további 9 évre",
-                "rangestart": "33",
-                "rangeend": "83.5",
                 "datestart": "2013.09.09.",
                 "dateend": "2031.01.01."
             }
@@ -132,8 +114,6 @@
         "nevpoziciok": [
             {
                 "nevpozicio": "dr. Karas Monika (elnök) idő előtt lemondott, újabb kinevezés várható, további 9 évre",
-                "rangestart": "12.5",
-                "rangeend": "75",
                 "datestart": "2013.08.19.",
                 "dateend": "2031.01.01."
             }
@@ -146,8 +126,6 @@
         "nevpoziciok": [
             {
                 "nevpozicio": "Biró Marcell (elnök)",
-                "rangestart": "12.5",
-                "rangeend": "83.5",
                 "datestart": "2021.10.01.",
                 "dateend": "2030.10.01."
             }
@@ -160,8 +138,6 @@
         "nevpoziciok": [
             {
                 "nevpozicio": "dr. Kozma Ákos (Alapvető jogok biztosa vagy Ombudsman)",
-                "rangestart": "12.5",
-                "rangeend": "83.5",
                 "datestart": "2019.09.26.",
                 "dateend": "2025.09.26."
             }
@@ -174,106 +150,76 @@
         "nevpoziciok": [
             {
                 "nevpozicio": "dr. Sulyok Tamás (elnök)",
-                "rangestart": "12.5",
-                "rangeend": "66",
                 "datestart": "2014.09.27.",
                 "dateend": "2026.09.27."
             },
             {
                 "nevpozicio": "dr. Czine Ágnes (tag)",
-                "rangestart": "12.5",
-                "rangeend": "83.5",
                 "datestart": "2014.11.15.",
                 "dateend": "2026.11.15."
             },
             {
                 "nevpozicio": "dr. Dienes-Ohm Egon (tag)",
-                "rangestart": "20",
-                "rangeend": "83.5",
                 "datestart": "2011.09.01.",
                 "dateend": "2023.09.01."
             },
             {
                 "nevpozicio": "dr. Handó Tünde (tag)",
-                "rangestart": "12.5",
-                "rangeend": "83.5",
                 "datestart": "2020.01.01.",
                 "dateend": "2032.01.01."
             },
             {
                 "nevpozicio": "dr. Horváth Attila (tag)",
-                "rangestart": "12.5",
-                "rangeend": "83.5",
                 "datestart": "2016.12.01.",
                 "dateend": "2028.12.01."
             },
             {
                 "nevpozicio": "dr. Hörcherné dr. Harosi Ildikó (tag)",
-                "rangestart": "12.5",
-                "rangeend": "83.5",
                 "datestart": "2016.12.01.",
                 "dateend": "2028.12.01."
             },
             {
                 "nevpozicio": "dr. Juhász Imre (tag)",
-                "rangestart": "12.5",
-                "rangeend": "83.5",
                 "datestart": "2013.04.03.",
                 "dateend": "2025.04.03."
             },
             {
                 "nevpozicio": "dr. Juhász Miklós (tag)",
-                "rangestart": "0",
-                "rangeend": "56",
                 "datestart": "2020.04.15.",
                 "dateend": "2032.04.15."
             },
             {
                 "nevpozicio": "dr. Pokol Béla (tag)",
-                "rangestart": "25",
-                "rangeend": "53.5",
                 "datestart": "2011.09.01.",
                 "dateend": "2023.09.01."
             },
             {
                 "nevpozicio": "dr. Salamon László (tag)",
-                "rangestart": "12.5",
-                "rangeend": "83.5",
                 "datestart": "2013.02.25.",
                 "dateend": "2025.02.25."
             },
             {
                 "nevpozicio": "dr. Schanda Balázs (tag)",
-                "rangestart": "24",
-                "rangeend": "100",
                 "datestart": "2016.12.01.",
                 "dateend": "2028.12.01."
             },
             {
                 "nevpozicio": "dr. Szabó Marcel (tag)",
-                "rangestart": "12.5",
-                "rangeend": "83.5",
                 "datestart": "2016.12.01.",
                 "dateend": "2028.12.01."
             },
             {
                 "nevpozicio": "dr. Szalay Péter (tag)",
-                "rangestart": "12.5",
-                "rangeend": "83.5",
                 "datestart": "2011.09.01.",
                 "dateend": "2023.09.01."
             },
             {
                 "nevpozicio": "dr. Szívós Mária (tag)",
-                "rangestart": "12.5",
-                "rangeend": "83.5",
                 "datestart": "2011.09.01.",
                 "dateend": "2023.09.01."
             },
             {
                 "nevpozicio": "dr. Márki Zoltán (tag)",
-                "rangestart": "12.5",
-                "rangeend": "83.5",
                 "datestart": "2021.06.22.",
                 "dateend": "2033.06.22."
             }
@@ -286,8 +232,6 @@
         "nevpoziciok": [
             {
                 "nevpozicio": "dr. Áder János, utódját a jelenlegi parlament választja 5 évre",
-                "rangestart": "12.5",
-                "rangeend": "83.5",
                 "datestart": "2012.05.10.",
                 "dateend": "2027.03.13."
             }
@@ -300,8 +244,6 @@
         "nevpoziciok": [
             {
                 "nevpozicio": "dr. Matolcsy György (elnök)",
-                "rangestart": "12.5",
-                "rangeend": "83.5",
                 "datestart": "2013.03.04.",
                 "dateend": "2025.03.04."
             }
@@ -314,8 +256,6 @@
         "nevpoziciok": [
             {
                 "nevpozicio": "Papp Dániel (vezérigazgató), megbizatása határozatlan időre szól ",
-                "rangestart": "12.5",
-                "rangeend": "83.5",
                 "datestart": "2018.10.01.",
                 "dateend": "2034.01.01."
             }
@@ -328,8 +268,6 @@
         "nevpoziciok": [
             {
                 "nevpozicio": "dr. Téglási András (elnök)",
-                "rangestart": "12.5",
-                "rangeend": "83.5",
                 "datestart": "2021.02.19.",
                 "dateend": "2030.02.19."
             }
@@ -342,8 +280,6 @@
         "nevpoziciok": [
             {
                 "nevpozicio": "dr. Nagy Attila Mihály (elnök)",
-                "rangestart": "12.5",
-                "rangeend": "83.5",
                 "datestart": "2020.09.15.",
                 "dateend": "2029.09.15."
             }
