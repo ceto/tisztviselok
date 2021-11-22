@@ -2,14 +2,10 @@
     <div class="narrowwrap">
         <h2 class="chapter__title cl2">Igazságszolgáltatás</h2>
         <div class="chapter__intro">
-            <p>Bár politikától független hatalmi ág, mégis jelentős befolyása van arra. Egyrészt a büntető igazságszolgáltatás körében üldözi a politikai korrupciót, másrészt a közigazgatási bíráskodáson keresztül felülvizsgálhatja és megsemmisítheti a végrehajtó hatalom alá rendelt közigazgatási szervek döntéseit. <strong>A választás után 3 vezető tisztségviselő összesen 18 évig marad pozícióban.</strong></p>
+            <p>Bár politikától független hatalmi ág, mégis jelentős befolyása van arra. Egyrészt a büntető igazságszolgáltatás körében üldözi a politikai korrupciót, másrészt a közigazgatási bíráskodáson keresztül felülvizsgálhatja és megsemmisítheti a végrehajtó hatalom alá rendelt közigazgatási szervek döntéseit. A választás után <strong>3 vezető tisztségviselő összesen 18 évig</strong> marad pozícióban.</p>
         </div>
-        <div data-sticky-container>
-            <div class="sticky" data-sticky data-margin-top="0" data-anchor="i-chapterdata" data-sticky-on="small">
-                {{> theaxis headline='Igazságszolgáltatás' colclass='cl2'}}
-            </div>
-        </div>
-        <div id="i-chapterdata" class="chapter__data">
+        {{> theaxis headline='Igazságszolgáltatás' colclass='cl2'}}
+        <div id="i-chapterdata" class="chapter__data" data-title="Igazságszolgáltatás">
             {{#each szervezetek}}
             {{#ifequal hatalmiag 'Igazságszolgáltatás'}}
             <div class="office">
