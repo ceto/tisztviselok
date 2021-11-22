@@ -1,6 +1,9 @@
 .office {
     margin: 2.875rem 0;
     text-shadow: 1px 1px 0 $cl-body-background, -1px -1px 0 $cl-body-background, 1px -1px 0 $cl-body-background, -1px 1px 0 $cl-body-background;
+    &:last-child() {
+        margin-bottom: 0;
+    }
 }
 .office__title {
     font-size: 0.975rem;

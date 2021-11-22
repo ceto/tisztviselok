@@ -1,5 +1,7 @@
 $fontsizebase: 15px;
 
+$siteheader-height: 2.5rem;
+
 $fontrobo: 'Roboto Condensed', sans-serif;
 $fontfira: 'Fira Sans', sans-serif;
 $fw-bold: 700;
@@ -27,7 +29,7 @@ $cl-bgdark: #482895;
 
 // Layout / Grid
 $layout-col-count: 12;
-$layout-col-width: 72px;
+$layout-col-width: 60px;
 $layout-gutter-width: 20px;
 $layout-content: ($layout-col-count * $layout-col-width) + (($layout-col-count - 1) * $layout-gutter-width);
 $layout-gutter-pct: percentage($layout-gutter-width / $layout-content);

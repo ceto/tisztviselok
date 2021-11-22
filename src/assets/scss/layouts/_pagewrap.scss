@@ -15,16 +15,15 @@
         padding-left: 5%;
         padding-right: 5%;
     }
-    @include breakpoint($bp-xlarge) {
+    @include breakpoint($bp-large) {
         padding-left: 7.5%;
         padding-right: 7.5%;
     }
 
 
-    @include breakpoint(120em) {
+    @include breakpoint($bp-xlarge) {
         padding-left: calc(50% - #{$global-width/2});
         padding-right: calc(50% - #{$global-width/2});
-
     }
 
     & & {
@@ -77,6 +76,14 @@
         padding-top: 2rem;
         padding-bottom: 2rem;
     }
+
+    &.fullheight {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        min-height: calc(100vh - #{$siteheader-height});
+    }
 }
 
 
@@ -85,7 +92,7 @@
 
 
 .narrowwrap {
-    max-width:  #{$global-width*0.6666};
+    max-width:  #{$global-width*0.6};
     margin-left:auto;
     margin-right:auto;
     &.left {

@@ -1,7 +1,17 @@
 .theaxiswrap {
-    background-color: $cl-body-background;
-    // border-bottom: 1px solid lighten(#000, 90%);
-    padding:.5em 0 0;
+    background-color: $cl-body-background;   
+    padding:.5rem 0 0;
+
+    .is-stuck & {
+        box-shadow: 0 0 1rem 0 $cl-body-background;
+    }
+    .chapter__title {
+        opacity: 0;
+        z-index: 5;
+        .is-stuck & {
+            opacity: 1;
+        }
+    }
     p {
         position: relative;
         line-height: 1.2;
@@ -30,6 +40,7 @@ svg.theaxis {
     width:100%;
     display: block;
     fill: currentColor;
+    margin-top: .875em;
 
     @include breakpoint($bp-tablet) {
         font-size: .75rem; ;
