@@ -36,14 +36,18 @@
 svg.theaxis {
     font-family: $fontrobo;
     line-height: 1;
-    font-size: .9375rem; 
+    font-size: 20px;
     width:100%;
     display: block;
     fill: currentColor;
     margin-top: .875em;
+    // background-color: red;
 
     @include breakpoint($bp-tablet) {
-        font-size: .75rem; ;
+        font-size: rem-calc(15px);
+    }
+    @include breakpoint($bp-xlarge) {
+        font-size: rem-calc(12px);
     }
 
 }

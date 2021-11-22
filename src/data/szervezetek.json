@@ -149,6 +149,36 @@
         "feladat": "Az Alaptörvény legfőbb őre és autentikus értelmezője. Elsősorban a frissen megalkotott jogszabályok (az ún. előzetes normakontroll) és a már hatályban lévő jogszabályok megsemmisítésére (utólagos normakontroll) vonatkozó jogkörén, valamint az alkotmányjogi panasz intézményén keresztül van alapvető jelentősége, de szerepe van például a Köztársasági Elnök pozíciójától való megfosztási eljárásban is.",
         "nevpoziciok": [
             {
+                "nevpozicio": "dr. Pokol Béla (tag)",
+                "datestart": "2011.09.01.",
+                "dateend": "2023.09.01."
+            },
+            {
+                "nevpozicio": "dr. Szalay Péter (tag)",
+                "datestart": "2011.09.01.",
+                "dateend": "2023.09.01."
+            },
+            {
+                "nevpozicio": "dr. Szívós Mária (tag)",
+                "datestart": "2011.09.01.",
+                "dateend": "2023.09.01."
+            },
+            {
+                "nevpozicio": "dr. Dienes-Ohm Egon (tag)",
+                "datestart": "2011.09.01.",
+                "dateend": "2023.09.01."
+            },
+            {
+                "nevpozicio": "dr. Salamon László (tag)",
+                "datestart": "2013.02.25.",
+                "dateend": "2025.02.25."
+            },
+            {
+                "nevpozicio": "dr. Juhász Imre (tag)",
+                "datestart": "2013.04.03.",
+                "dateend": "2025.04.03."
+            },
+            {
                 "nevpozicio": "dr. Sulyok Tamás (elnök)",
                 "datestart": "2014.09.27.",
                 "dateend": "2026.09.27."
@@ -159,14 +189,9 @@
                 "dateend": "2026.11.15."
             },
             {
-                "nevpozicio": "dr. Dienes-Ohm Egon (tag)",
-                "datestart": "2011.09.01.",
-                "dateend": "2023.09.01."
-            },
-            {
-                "nevpozicio": "dr. Handó Tünde (tag)",
-                "datestart": "2020.01.01.",
-                "dateend": "2032.01.01."
+                "nevpozicio": "dr. Schanda Balázs (tag)",
+                "datestart": "2016.12.01.",
+                "dateend": "2028.12.01."
             },
             {
                 "nevpozicio": "dr. Horváth Attila (tag)",
@@ -179,44 +204,19 @@
                 "dateend": "2028.12.01."
             },
             {
-                "nevpozicio": "dr. Juhász Imre (tag)",
-                "datestart": "2013.04.03.",
-                "dateend": "2025.04.03."
-            },
-            {
-                "nevpozicio": "dr. Juhász Miklós (tag)",
-                "datestart": "2020.04.15.",
-                "dateend": "2032.04.15."
-            },
-            {
-                "nevpozicio": "dr. Pokol Béla (tag)",
-                "datestart": "2011.09.01.",
-                "dateend": "2023.09.01."
-            },
-            {
-                "nevpozicio": "dr. Salamon László (tag)",
-                "datestart": "2013.02.25.",
-                "dateend": "2025.02.25."
-            },
-            {
-                "nevpozicio": "dr. Schanda Balázs (tag)",
-                "datestart": "2016.12.01.",
-                "dateend": "2028.12.01."
-            },
-            {
                 "nevpozicio": "dr. Szabó Marcel (tag)",
                 "datestart": "2016.12.01.",
                 "dateend": "2028.12.01."
             },
             {
-                "nevpozicio": "dr. Szalay Péter (tag)",
-                "datestart": "2011.09.01.",
-                "dateend": "2023.09.01."
+                "nevpozicio": "dr. Handó Tünde (tag)",
+                "datestart": "2020.01.01.",
+                "dateend": "2032.01.01."
             },
             {
-                "nevpozicio": "dr. Szívós Mária (tag)",
-                "datestart": "2011.09.01.",
-                "dateend": "2023.09.01."
+                "nevpozicio": "dr. Juhász Miklós (tag)",
+                "datestart": "2020.04.15.",
+                "dateend": "2032.04.15."
             },
             {
                 "nevpozicio": "dr. Márki Zoltán (tag)",

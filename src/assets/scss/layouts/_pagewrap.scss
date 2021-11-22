@@ -26,6 +26,13 @@
         padding-right: calc(50% - #{$global-width/2});
     }
 
+    &.fullwidth {
+        @include breakpoint($bp-large) {
+            padding-left: 7.5%;
+            padding-right: 7.5%;
+        }
+    }
+
     & & {
 
         margin-left:-3.03191489362%;
@@ -92,7 +99,7 @@
 
 
 .narrowwrap {
-    max-width:  #{$global-width*0.6};
+    max-width:  #{$global-width*0.75};
     margin-left:auto;
     margin-right:auto;
     &.left {

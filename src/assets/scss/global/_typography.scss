@@ -21,16 +21,13 @@ a {
 }
 
 .pageintro {
-    font-size: 1.125rem;
+    font-size: rem-calc(18);
+    line-height: 1.444;
     margin-bottom: #{$siteheader-height*2};
     a[class^="cl"] {
         background-color: $cl-gray;
         text-decoration: none;
         white-space: nowrap;
-        // font-weight: $fw-bold;
-        // font-family: $fontrobo;
-
-
 
         &:hover, &:focus {
             filter: grayscale(1) invert(1);
@@ -59,11 +56,12 @@ a {
     left:50%;
     transform: translate3d(-50%, 0, 0) !important;
     text-align: center;
-    font-size: .75rem;
     line-height: 1.2;
     text-decoration: none;
-    padding:.5em .75em;
-    border:1px dashed rgba(#000, .25);
+    width:2rem;
+    &:hover, &:focus {
+        filter:contrast(3);
+    }
 
 }
 
@@ -72,7 +70,8 @@ a {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    border-bottom: 1px dashed rgba(#000, .25);
+    flex-direction: row-reverse;
+    // border-bottom: 1px dashed rgba(#000, .25);
     align-items: center;
     padding:.5rem 0;
     h1 {

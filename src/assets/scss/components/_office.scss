@@ -6,32 +6,37 @@
     }
 }
 .office__title {
-    font-size: 0.975rem;
+    font-size: rem-calc(15);
     margin:0 0 .25em;
-    max-width: 32em;
+    max-width: 34em;
     
 }
 .office__intro {
     font-family: $fontrobo;
-    font-size: 0.975rem;
+    font-size: rem-calc(15);
     color:$cl-gray;
-    max-width: 32em;
-
+    max-width: 34em;
     p {
-
+        margin:0 0 0 0;
+        
     }
 }
 
 .office__data {
     .svgbar {
-        height: .625rem;
+        height: rem-calc(15);
+        margin: rem-calc(10) 0;
+        @include breakpoint($bp-tablet) {
+            height: rem-calc(10);
+        }
     }
     p {
         font-family: $fontrobo;
         text-align: right;
-        font-size: 0.975rem;
-        padding:.333em 0 .333em;
-        margin:0 0 .25em auto;
+        font-size: rem-calc(15);
+        line-height: 1;
+        padding:0 0;
+        margin:0 0 0 auto;
         max-width: 26em;
     }
 }

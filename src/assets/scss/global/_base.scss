@@ -8,7 +8,7 @@ html {
         font-size: $fontsizebase*1.066667;
     }
     @include breakpoint($bp-xxlarge) {
-        font-size: $fontsizebase*1.2;
+        font-size: $fontsizebase*1.125;
     }
 }
 

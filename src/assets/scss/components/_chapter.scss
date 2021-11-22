@@ -12,7 +12,7 @@
 }
 .chapter__title {
     position: relative;
-    font-size: 1rem;
+    font-size: rem-calc(16);
     line-height: $global-lineheight;
     font-weight: $fw-normal;
     font-family: $fontfira;
@@ -55,11 +55,15 @@
 }
 
 .chapter__intro {
-    font-family: $fontrobo;
-    font-size: 1rem;
+    // font-family: $fontrobo;
+    // font-weight: $fw-medium;
+    font-size: rem-calc(16);
     margin:.5rem 0 0;
     p {
         line-height: 1.5;
+        strong {
+            font-weight: $fw-medium;
+        }
     }
 }
 
