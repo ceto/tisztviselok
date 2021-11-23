@@ -1,6 +1,6 @@
 .theaxiswrap {
     background-color: $cl-body-background;   
-    padding:2.75rem 0 0;
+    padding:3.5rem 0 0;
     p {
         position: relative;
         line-height: 1.2;
@@ -22,23 +22,6 @@
         }
     }
 }
-svg.theaxis {
-    width:100%;
-    display: block;
-    fill: currentColor;
-}
-
-svg.svgbar {
-    display: block;
-    .progress {
-
-
-        
-       
-    }
-}
-
-
 
 .yearlist {
     list-style: none;
@@ -70,3 +53,11 @@ svg.svgbar {
         }
     }
 }
+
+svg.theaxis {
+    width:100%;
+    display: block;
+    fill: currentColor;
+}
+
+

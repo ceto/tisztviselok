@@ -41,11 +41,11 @@ module.exports = function(color='', datestart='2010.01.01.', dateend='2033.12.31
         default:
           hex = shadeColor('#666666',0);
     }
-    var svg = '<svg class="svgbar" viewBox="0 0 600 15" fill="' + hex +'" width="100%" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">'+
+    var svg = '<svg class="svgbar color" viewBox="0 0 600 15" fill="' + hex +'" width="100%" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">'+
         '<title>'+ 'Megbízatásának ideje: ' + datestart + ' - ' + dateend + '</title>' +
         '<g mask="url(#barstripes)">' + 
             '<rect class="base" fill="#efefef" x="0" y="0" width="100%" height="100%" />' +
-            '<rect class="progress" x="'+ (100-((Date.parse('2033.12.31.') - Date.parse(datestart))/1000 / hundredpercent * 100)) +'%" y="0" width="'+ ((Date.parse(dateend) - Date.parse(datestart))/1000 / hundredpercent * 100) +'%" height="100%" mask="url(#barmask)" />' +
+            '<rect fill="url(#' + color + '-grad)" class="progress" x="'+ (100-((Date.parse('2033.12.31.') - Date.parse(datestart))/1000 / hundredpercent * 100)) +'%" y="0" width="'+ ((Date.parse(dateend) - Date.parse(datestart))/1000 / hundredpercent * 100) +'%" height="100%" mask="url(#barmask)" />' +
         '</g>' +   
     '</svg>';
     return new handlebars.SafeString(svg);

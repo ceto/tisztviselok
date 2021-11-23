@@ -24,7 +24,8 @@
 
 .office__data {
     .svgbar {
-        height: rem-calc(14);
+        display: block;
+        height: rem-calc(13);
         margin: rem-calc(10) 0;
         @include breakpoint($bp-tablet) {
             height: rem-calc(10);
@@ -39,4 +40,33 @@
         margin:0 0 0 auto;
         max-width: 26em;
     }
+}
+
+
+.svgbar {
+    .progress {
+        cursor: pointer;
+        // mask: url(#progressmask);
+        // fill: url(#bwgrad);
+
+        
+        
+        &:hover, &:focus {
+            // filter:brightness(.95);
+
+        }
+    }
+
+    // &.cl1 {
+    //     fill: url('#cl1-grad');
+    // };
+    // &.cl2 {
+    //     fill: url('#cl2-grad');
+    // };
+    // &.cl3 {
+    //     fill: url('#cl3-grad');
+    // };
+    // &.cl4 {
+    //     fill: url('#cl4-grad');
+    // };
 }
