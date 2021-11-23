@@ -1,5 +1,5 @@
 import $ from 'jquery';
-import 'what-input';
+import whatInput from 'what-input';
 import AOS from 'aos';
 
 
@@ -81,7 +81,7 @@ function enableWindowScroll() {
 
 var startlinks = $(".startlinks");
 var introstatus = 0;
-if (document.documentElement.scrollTop!==0) {
+if ((document.documentElement.scrollTop!==0) ) {
     introstatus=101;
     enableWindowScroll()
     $(startlinks).removeClass('dontshow');
@@ -89,9 +89,33 @@ if (document.documentElement.scrollTop!==0) {
 } else {
     disableWindowScroll();
 }
-// console.log(document.documentElement.scrollTop);
+
+
+console.log(whatInput.ask());
+
+document.addEventListener('touchstart', () => {
+    console.log(whatInput.ask());
+    if (whatInput.ask() !== 'mouse') {
+        $(startlinks).removeClass('dontshow');
+        $(startlinks).addClass('aos-animate');
+        enableWindowScroll();
+        introstatus = 100;
+    }
+});
+
+document.addEventListener('keydown', () => {
+    console.log(whatInput.ask());
+    if (whatInput.ask() !== 'mouse') {
+        $(startlinks).removeClass('dontshow');
+        $(startlinks).addClass('aos-animate');
+        enableWindowScroll();
+        introstatus = 100;
+    }
+});
+
 
 $('.startgomb').on("click", function(e) {
+
     if (introstatus>5) {
         enableWindowScroll();
         introstatus = 101;
@@ -128,19 +152,30 @@ document.addEventListener("DOMMouseScroll", detectTrackPad, false);
 
 function mouseWheelHandler(event) {
 
-    if (introstatus!==101) {
 
-        var delta = event.originalEvent.deltaY;
+
+    var delta = event.originalEvent.deltaY;
+    // console.log(document.documentElement.scrollTop - document.getElementById('banner').clientHeight );
+    // if (delta > 0) {
+    //    if ((document.documentElement.scrollTop - document.getElementById('banner').clientHeight) < 0) {
+    //         Foundation.SmoothScroll.scrollToLoc('#banner');
+    //         introstatus = 100;
+    //    }
+    // }
+
+    if (introstatus!==101) {
 
         if ((introstatus > 5) && (introstatus<100)) {
             enableWindowScroll();
             introstatus = 100;
         
         }
-        if (introstatus === 100) {
+
+        if ( (introstatus === 100) && (delta > 0 ) ) {
             Foundation.SmoothScroll.scrollToLoc('#start');
             introstatus = 101;
         }
+
 
         if (introstatus < 6 ) {
             if (delta > 0) {
