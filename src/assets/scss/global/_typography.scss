@@ -21,9 +21,14 @@ a {
 }
 
 .pageintro {
-    font-size: rem-calc(18);
+    font-size: rem-calc(15);
     line-height: 1.444;
     margin-bottom: #{$siteheader-height*2};
+
+    @include breakpoint($bp-tablet) {
+        font-size: rem-calc(18);
+    }
+
     a[class^="cl"] {
         background-color: $cl-gray;
         text-decoration: none;
@@ -105,11 +110,21 @@ a {
 }
 
 .sitefooter {
+    padding:calc(.875rem + 2vw) 0;
+    font-size: 1rem;
+    color:$cl-gray;
+    p {
+        margin:0;
+        font-family: $fontrobo;
+    }
+}
+
+.sitefooter__logos {
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    border-top: 1px dashed rgba(#000, .25);
-    align-items: center;
-    padding:.5rem 0 2rem;
-    font-size: .875rem;
+    gap:.875rem;
+    img {
+        display: block;
+        height:3.5rem;
+    }
+    margin:0 0 .75rem;
 }

@@ -1,11 +1,16 @@
 <div id="vegrehajtas" class="chapter pagewrap novpad" data-magellan-target="vegrehajtas">
     <div class="narrowwrap">
-        <h2 class="chapter__title cl3">Végrehajtó hatalom</h2>
+        <div class="sticky" data-sticky data-margin-top=".5" data-sticky-on="small" data-anchor="vegrehajtas">
+            <h2 class="chapter__title cl3">Végrehajtó hatalom</h2>
+        </div>
         <div class="chapter__intro">
             <p>A végrehajtó hatalom csúcsszerve a Kormány, azonban az utóbbi években számos, hagyományosan a Kormány és a végrehajtó hatalom hatáskörébe tartozó feladatot szerveztek ki a mindenkori Kormánytól de jure független szervekhez. Ezen szervek vezetőit a Kormány hivatalos úton nem utasíthatja, és csak nagyon korlátozott esetekben mozdíthatja el. A 2022-es választás után <strong>6 vezető tisztségviselő összesen 48 évig</strong> marad hivatalban.</p>
         </div>
-        {{> theaxis headline='Végrehajtó hatalom' colclass='cl3'}}
+        
         <div id="v-chapterdata" class="chapter__data" data-title="Végrehajtó hatalom">
+            <div class="sticky" data-sticky data-margin-top="0" data-sticky-on="small" data-anchor="v-chapterdata">
+            {{> theaxis headline='Végrehajtó hatalom' colclass='cl3'}}
+            </div>
             {{#each szervezetek}}
             {{#ifequal hatalmiag 'Végrehajtó'}}
             <div class="office">

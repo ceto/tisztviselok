@@ -1,12 +1,3 @@
-<div id="globalaxis" class="globalaxis">
-    <div class="pagewrap novpad" data-magellan>
-        <div class="narrowwrap">
-            {{> theaxis headline='global' colclass='none'}}
-        </div>
-    </div>
-</div>
-
-
 <div class="pagewrap fullwidth novpad">
     <div class="siteheader" data-aos="fade-down" data-aos-delay="2500" data-aos-duration="500" data-aos-anchor="#pageintro">
         <!-- <h1>Következő kormány kezét megkötő szereplők</h1> -->
@@ -17,8 +8,8 @@
 <div id="banner" class="pagewrap short fullheight" data-magellan data-magellan-target="banner">
     <div class="narrowwrap">
         <div id="pagintro" class="pageintro" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1200">
-            <p>A felmérések szerint a következő választáson minden eddiginél nagyobb a kormányváltás esélye. Azonban 2010 óta számos olyan jogszabály módosítás történt, amely a Fidesz hatalmának bebetonozását és egy párhuzamos állam kiépítését célozta, így a választások után rengeteg nehezen elmozdítható közjogi tisztségviselő marad majd pozícióban, akik kizárólag a jelenlegi Fidesz-többségnek köszönhetik mandátumukat.</p>
-            <p>Könnyen lehet, hogy kormányváltás esetén ezek a személyek a pozíciójukhoz kapcsolódó változatos formális és informális eszközeikkel a Fideszt segítve akadályozni fogják az új kormányt. Az államapparátus minden szegletében találunk ilyen tisztviselőket:</p>
+            <p>Jövőre minden eddiginél nagyobb a kormányváltás esélye, azonban 2010 óta a Fidesz folyamatosan igyekszik bebetonozni hatalmát. Így a választások után nehezen elmozdítható közjogi tisztségviselő hada marad pozícióban, akik kizárólag a jelenlegi Fidesz-többségnek köszönhetik mandátumukat.</p>
+            <p>Könnyen lehet, hogy kormányváltás esetén ezek a személyek a pozíciójukhoz kapcsolt formális és informális eszközeikkel a Fideszt segítve akadályozni fogják az új kormányt. Az államapparátus minden szegletében találunk ilyen tisztviselőket:</p>
             <p class="startlinks dontshow" data-aos="fade-up" data-aos-duration="1200">a <a class="cl1" href="#torvenyhozas">törvényhozásban,</a> a <a class="cl2" href="#vegrehajtas">végrehajtó</a> hatalomban, az <a class="cl3" href="#igazsagszolgaltatas">igazságszolgáltatásban</a> és <a class="cl4" href="#egyeb">egyéb</a> hivatalokban.</p>
         </div>
     </div>
@@ -30,9 +21,11 @@
 
 <div id="start" class="pagewrap novpad" data-magellan-target="start">
     <div class="narrowwrap">
-        <figure class="chartfig">
-            <img src="{{root}}assets/img/chart.svg" alt="">
-        </figure>
+        <picture class="chartfig">
+            <source srcset="{{root}}assets/img/chart.svg" media="(min-width: 768px)">
+            <source srcset="{{root}}assets/img/chart-mobile.svg" media="(max-width: 767px)">
+            <img src="{{root}}assets/img/chart.svg" alt="Egy évvel a választások után, a jelenlegi kormány által kinevezett magasrangú tisztviselők közül még ott lesz 1  a törvényhozásban,3 az igazságszolgáltatásban, 6 a végrehajtásban, 21 az egyéb hivatalokban." >
+        </picture>
     </div>
 </div>
 <br><br>
@@ -52,6 +45,13 @@
 
 <br><br><br><br><br>
 
-<div class="pagewrap fullwidth novpad">
-    <div class="sitefooter">footer goes here</div>
+<div class="pagewrap fullwidth novpad xlight">
+    <div class="sitefooter narrowwrap">
+        <div class="sitefooter__logos">
+            <img src="{{root}}assets/img/helsinkilogo.png">
+            <img src="{{root}}assets/img/svenskalogo.png">
+        </div>
+        <p>Készült a Magyar Helsinki Bizottság megbízásából, a Svenska Postkodstiftelsen támogatásával.</p>
+    </div>
 </div>
+

@@ -1,18 +1,13 @@
+.chapters {
+}
 .chapter {
+    position: relative;
     margin: 4rem 0;
-
-
-
-    // .sticky {
-    //     opacity: 0;
-    //     &.is-stuck {
-    //         opacity: 1;
-    //     }
-    // }
 }
 .chapter__title {
+    transition: transform .2s ease-in;
     position: relative;
-    font-size: rem-calc(16);
+    font-size: rem-calc(15);
     line-height: $global-lineheight;
     font-weight: $fw-normal;
     font-family: $fontfira;
@@ -38,6 +33,16 @@
         }
     }
 
+    .is-stuck & {
+        // transform: translate3d(0,.5em,0);
+    }
+
+    .is-at-bottom & {
+        &:before {
+            display: none;
+        }
+    }
+
 
     &.cl1 {
         background-color: $cl-1;
@@ -57,7 +62,7 @@
 .chapter__intro {
     // font-family: $fontrobo;
     // font-weight: $fw-medium;
-    font-size: rem-calc(16);
+    font-size: rem-calc(15);
     margin:.5rem 0 0;
     p {
         line-height: 1.5;
@@ -80,9 +85,9 @@
         width: 1px;
         border-left:1px dashed $cl-gray-light;
     }
+
+    .sticky {
+        z-index: 4;
+    }
 }
 
-
-.sticky.valasztasok {
-    
-}

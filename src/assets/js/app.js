@@ -192,3 +192,24 @@ function mouseWheelHandler(event) {
 }
 
 $(document).on("mousewheel DOMMouseScroll wheel MozMousePixelScroll", mouseWheelHandler);
+
+
+
+// var $stickies=[];
+// $('.chapter .chapter__title').each( function(i, element) {
+//     var $this=$(this);
+//     console.log($this.closest('.chapter').attr('id'));
+//     // $element: element;
+
+//     $stickies[i] = new Foundation.Sticky( $('.chapter__title'), {
+//         'margin-top': 0,
+//         'sticky-on': 'small',
+//         'anchor': '#'+$this.closest('.chapter').attr('id')
+//     });
+//     $(this).css('z-index', 10-i);
+
+//     console.log($stickies[i]);
+
+
+// });
+

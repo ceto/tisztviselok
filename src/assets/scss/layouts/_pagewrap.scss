@@ -91,6 +91,10 @@
         align-items: center;
         min-height: calc(100vh - #{$siteheader-height});
     }
+
+    &.xlight {
+        background-color: $cl-gray-xlight;
+    }
 }
 
 

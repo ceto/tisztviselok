@@ -5,10 +5,10 @@ html {
     background-color: $cl-body-background;
 
     @include breakpoint($bp-tablet) {
-        font-size: $fontsizebase*1.066667;
+        font-size: $fontsizebase*1.1428571429;
     }
     @include breakpoint($bp-xxlarge) {
-        font-size: $fontsizebase*1.125;
+        font-size: $fontsizebase*1.25;
     }
 }
 
@@ -56,7 +56,8 @@ img {
 
 
   .chartfig {
-    margin:0;
-    padding:1em 1.5em;
-    background-color: $cl-gray-xlight;
+      width:100%;
+    // margin:0;
+    // padding:1em 1.5em;
+    // background-color: $cl-gray-xlight;
   }
