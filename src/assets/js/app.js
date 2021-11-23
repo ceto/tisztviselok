@@ -21,7 +21,9 @@ import 'waypoints/lib/noframework.waypoints.js';
 $(document).foundation();
 
 
-AOS.init();
+AOS.init({
+
+});
 
 
 $('.chapter .theaxiswrap').each( function(i,element) {
@@ -56,22 +58,102 @@ $('.chapter__data').each( function(i,element) {
     })
 });
 
-let scroll_position = 0;
-let scroll_direction;
 
-window.addEventListener('scroll', function(e){
-    scroll_direction = (document.body.getBoundingClientRect()).top > scroll_position ? 'up' : 'down';
-    scroll_position = (document.body.getBoundingClientRect()).top;
-    if(scroll_direction === 'up'){
-        $('body').addClass('upscrolling').removeClass('downscrolling');
-    } else if(scroll_direction === 'down'){
-        $('body').addClass('downscrolling').removeClass('upscrolling');
+var winX = null;
+var winY = null;
+
+window.addEventListener('scroll', function () {
+    if (winX !== null && winY !== null) {
+        window.scrollTo(winX, winY);
     }
 });
 
+function disableWindowScroll() {
+    winX = window.scrollX;
+    winY = window.scrollY;
+}
 
-    // if(oldValue - newValue < 0){
-    //     $('body').addClass('upscrolling').removeClass('downscrolling');
-    // } else if(oldValue - newValue > 0){
-    //     $('body').addClass('downscrolling').removeClass('upcrolling');
-    // }
+function enableWindowScroll() {
+    winX = null;
+    winY = null;
+}
+
+
+var startlinks = $(".startlinks");
+var introstatus = 0;
+if (document.documentElement.scrollTop!==0) {
+    introstatus=101;
+    enableWindowScroll()
+    $(startlinks).removeClass('dontshow');
+    $(startlinks).addClass('aos-animate'); 
+} else {
+    disableWindowScroll();
+}
+// console.log(document.documentElement.scrollTop);
+
+$('.startgomb').on("click", function(e) {
+    if (introstatus>5) {
+        enableWindowScroll();
+        introstatus = 101;
+    } else {
+        e.stopPropagation();
+        $(startlinks).removeClass('dontshow');
+        $(startlinks).addClass('aos-animate');
+        introstatus = 6;
+
+    }
+});
+
+var isTrackpad = false;
+
+function detectTrackPad(e) {
+    isTrackpad = false;
+    if (e.wheelDeltaY) {
+        // console.log(e.wheelDeltaY +' | ' + (e.deltaY * -3));
+        if (e.wheelDeltaY === (e.deltaY * -3)) {
+            isTrackpad = true;
+        }
+    }
+    else if (e.deltaMode === 0) {
+        isTrackpad = true;
+    }
+    console.log(isTrackpad ? "Trackpad detected" : "Mousewheel detected");
+}
+
+document.addEventListener("mousewheel", detectTrackPad, false);
+document.addEventListener("DOMMouseScroll", detectTrackPad, false);
+
+
+
+
+function mouseWheelHandler(event) {
+
+    if (introstatus!==101) {
+
+        var delta = event.originalEvent.deltaY;
+
+        if ((introstatus > 5) && (introstatus<100)) {
+            enableWindowScroll();
+            introstatus = 100;
+        
+        }
+        if (introstatus === 100) {
+            Foundation.SmoothScroll.scrollToLoc('#start');
+            introstatus = 101;
+        }
+
+        if (introstatus < 6 ) {
+            if (delta > 0) {
+                $(startlinks).removeClass('dontshow');
+                $(startlinks).addClass('aos-animate');
+                introstatus += 1;
+            } else {
+                // console.log('fel')
+            }
+        }
+    }
+    
+
+}
+
+$(document).on("mousewheel DOMMouseScroll wheel MozMousePixelScroll", mouseWheelHandler);

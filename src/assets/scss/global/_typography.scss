@@ -49,6 +49,13 @@ a {
 
 }
 
+.startlinks {
+    &.dontshow {
+        opacity: 0 !important;
+        transform: translate3d(0, 100px, 0) !important;
+    }
+}
+
 .startgomb {
     position: absolute;
     display: inline-block;
