@@ -1,5 +1,5 @@
-.theaxiswrap {
-    background-color: $cl-body-background;   
+.theaxiswrap { 
+    background-image: linear-gradient(to top, rgba($cl-body-background,.25) 0, $cl-body-background 1.875em);
     padding:3.5rem 0 0;
     p {
         position: relative;
@@ -8,7 +8,7 @@
         font-family: $fontrobo;
         color: $cl-gray;
   
-        padding: .25em .25em .125em 1em;
+        padding: .5em .25em .5em 1em;
         margin:0 0 0 50%;
         &::before {
             position: absolute;
@@ -30,6 +30,7 @@
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
+    font-family: $fontrobo;
     line-height: 1;
     font-size: rem-calc(13);
     text-align: center;
