@@ -1,11 +1,13 @@
 .banner {
     padding-top: 0;
     padding-bottom: 0;
-
+    
     height: 100%; /* Fallback for browsers that do not support Custom Properties */
     // height: calc(var(--vh, 1vh) * 100);
 
-    overflow: hidden;
+    // overflow: hidden;
+    // overflow-y: visible;
+
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -25,7 +27,7 @@
         z-index: 2;
         overflow: visible;
         display: block;
-        padding-top: 3rem;
+        padding-top: 4rem;
         // padding-bottom: 8rem;
         transform: translate3d(0, 0, 0) !important;
 
@@ -74,6 +76,11 @@ a.langswitch {
         color: $cl-body-font-color;
     }
 
+    @include breakpoint($bp-tablet down) {
+        top: 1.333rem;
+        right: 1.333rem;
+    }
+
 }
 
 .startgomb {
@@ -110,7 +117,7 @@ a.langswitch {
 
 
 .pageintro {
-    font-size: rem-calc(15);
+    font-size: rem-calc(18);
     line-height: 1.444;
 
     
