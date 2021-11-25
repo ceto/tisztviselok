@@ -22,7 +22,7 @@
     }
 
 
-    @include breakpoint($bp-xlarge) {
+    @include breakpoint(100em) {
         padding-left: calc(50% - #{$global-width/2});
         padding-right: calc(50% - #{$global-width/2});
     }
@@ -104,7 +104,7 @@
 
 
 .narrowwrap {
-    max-width:  #{$global-width*0.75};
+    max-width:  #{$global-width*0.5};
     margin-left:auto;
     margin-right:auto;
     &.left {
