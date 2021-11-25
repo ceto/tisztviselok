@@ -76,7 +76,7 @@ $(document).on('scroll', function () {
         $('.banner').css('transform', 'translate3d(0,' + ytolas +'px, 0)');
         // $('.banner').css('bottom', ytolas +'px')
     } else if ( $(window).scrollTop() < leadbasebottom ) {
-        console.log('elején vagyok');
+        // console.log('elején vagyok');
         // window.scrollTo({top:leadbasebottom, behavior:'auto'});
     }  
 });
