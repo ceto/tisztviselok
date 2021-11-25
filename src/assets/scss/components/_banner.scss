@@ -1,6 +1,9 @@
 .banner {
-    height: 100vh; /* Fallback for browsers that do not support Custom Properties */
-    height: calc(var(--vh, 1vh) * 100);
+    padding-top: 0;
+    padding-bottom: 0;
+
+    height: 100%; /* Fallback for browsers that do not support Custom Properties */
+    // height: calc(var(--vh, 1vh) * 100);
 
     overflow: hidden;
     display: flex;
@@ -13,16 +16,46 @@
     left:0;
     bottom:0;
     transform: translate3d(0, 0, 0);
-    // transition: opacity .2s ease-in;
-    
-    // border: .22rem solid green;
 
-    .thelead {
+
+
+    @include breakpoint($bp-tablet down) {
+        height: auto;
+        position: relative;
+        z-index: 2;
+        overflow: visible;
+        display: block;
+        padding-top: 3rem;
+        // padding-bottom: 8rem;
+        transform: translate3d(0, 0, 0) !important;
+
     }
+    
 
         
    
 }
+
+
+.afterbanner {
+    margin-top: 100vh;
+    .pageintro {
+        padding-top: 1em;
+    }
+
+    @include breakpoint($bp-tablet down) {
+        background-color: transparent;
+        margin-top: 0;
+        z-index: 3;
+
+        .pageintro {
+            padding-top: 0;
+        }
+        
+    }
+  
+}
+
 
 a.langswitch {
     position: absolute;
@@ -67,17 +100,12 @@ a.langswitch {
         }
     }
 
-}
-
-.afterbanner {
-
-    // border: .22rem solid red;
-    margin-top: 100vh;
-    .pageintro {
-        padding-top: 1em;
+    @include breakpoint($bp-tablet down) {
+        display: none;
     }
-  
+
 }
+
 
 
 
