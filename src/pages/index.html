@@ -1,39 +1,37 @@
-<div id="banner" class="pagewrap banner" data-magellan>
-    <a class="langswitch" href="#" data-aos="fade-down" data-aos-delay="1700" data-aos-duration="500" data-aos-anchor="#animintro" >EN</a>
-    <div class="narrowwrap">
-        <div id="thelead" class="thelead pageintro">
-            <div id="animintro" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1200">
-                <p>2022-ben minden eddiginél nagyobb a kormányváltás esélye, azonban 2010 óta a Fidesz folyamatosan igyekszik bebetonozni hatalmát. Így a választások után nehezen elmozdítható közjogi tisztségviselő hada marad pozícióban, akik kizárólag a jelenlegi Fidesz-többségnek köszönhetik mandátumukat.</p>
-                <p>Könnyen lehet, hogy kormányváltás esetén ezek a személyek a pozíciójukhoz kapcsolt formális és informális eszközeikkel a Fideszt segítve akadályozni fogják az új kormányt. Az államapparátus minden szegletében találunk ilyen tisztviselőket:</p>
-            </div>
-        </div>
-    </div>
-    <a class="startgomb" href="#start" data-aos="fade-up" data-aos-delay="1700" data-aos-duration="500" data-aos-anchor="#animintro">
-        <img src="{{root}}assets/img/down-arrow.svg">
-    </a>
-</div>
-<div id="start" class="pagewrap novpad afterbanner">
+---
+lang: hu
+title: Következő kormány kezét megkötő szereplők
+description: Lorem ipsum.
+ogimage: lOrem
+isent1: "2022-ben minden eddiginél nagyobb a kormányváltás esélye, azonban 2010 óta a Fidesz folyamatosan igyekszik bebetonozni hatalmát. Így a választások után nehezen elmozdítható közjogi tisztségviselő hada marad pozícióban, akik kizárólag a jelenlegi Fidesz-többségnek köszönhetik mandátumukat."
+isent2: "Könnyen lehet, hogy kormányváltás esetén ezek a személyek a pozíciójukhoz kapcsolt formális és informális eszközeikkel a Fideszt segítve akadályozni fogják az új kormányt. Az államapparátus minden szegletében találunk ilyen tisztviselőket:"
+---
+<div id="start" class="pagewrap novpad afterbanner" data-magellan-target="start">
     <div class="narrowwrap"> 
-        <div class="pageintro" data-magellan-target="start" data-aos="fade-up" data-aos-delay="1700" data-aos-duration="800" data-aos-anchor="animintro" >       
-            <p class="startlinks">a <a class="cl1" href="#torvenyhozas">törvényhozásban,</a> a <a class="cl2" href="#vegrehajtas">végrehajtó</a> hatalomban, az <a class="cl3" href="#igazsagszolgaltatas">igazságszolgáltatásban</a> és <a class="cl4" href="#egyeb">egyéb</a> hivatalokban.</p>
+        <div class="pageintro">       
+            <p class="startlinks">a <a class="cl1" href="#torvenyhozas">törvényhozásban,</a> a <a class="cl3" href="#vegrehajtas">végrehajtó</a> hatalomban, az <a class="cl2" href="#igazsagszolgaltatas">igazságszolgáltatásban</a> és <a class="cl4" href="#egyeb">egyéb</a> hivatalokban.</p>
         </div>
-        <br>
-        <picture class="chartfig" data-magellan-target="start" data-aos="fade-up" data-aos-delay="2500" data-aos-duration="500" data-aos-anchor="animintro">
+        <br><br><br>
+        <picture class="chartfig">
             <source srcset="{{root}}assets/img/chart.svg" media="(min-width: 768px)">
             <source srcset="{{root}}assets/img/chart-mobile.svg" media="(max-width: 767px)">
             <img src="{{root}}assets/img/chart.svg" alt="Egy évvel a választások után, a jelenlegi kormány által kinevezett magasrangú tisztviselők közül még ott lesz 1  a törvényhozásban,3 az igazságszolgáltatásban, 6 a végrehajtásban, 21 az egyéb hivatalokban." >
         </picture>
     </div>
 </div>
+<br><br>
+
 <div id="chapters" class="chapters">
-    {{> torvenyhozas }}
+    {{> chapter ds=hundata id='torvenyhozas' title='Törvényhozás' color='cl1' desc='A törvényhozás a legfőbb hatalmi ág, amely törvényalkotás és alkotmányozás útján a másik két hatalmi ág működési kereteit is meghatározhatja. A törvényhozó hatalom gyakorlója az Országgyűlés, azonban ide sorolható még a Költségvetési Tanács, amelynek hozzájárulása nélkül a parlament nem fogadhatja el az ország költségvetését, illetve az Állami Számevőszék, amely a költségvetési támogatások elköltését ellenőrzi a törvényhozó nevében. A 2022-es választásokat követően <strong>2 magas rangú vezető</strong> tisztségviselő marad pozícióban <strong>összesen 4 évig.</strong>' }}
 
-    {{> igazsagszolgaltatas }}
+    {{> chapter ds=hundata id='igazsagszolgaltatas' title='Igazságszolgáltatás' color='cl2' desc='Bár politikától független hatalmi ág, mégis jelentős befolyása van arra. Egyrészt a büntető igazságszolgáltatás körében üldözi a politikai korrupciót, másrészt a közigazgatási bíráskodáson keresztül felülvizsgálhatja és megsemmisítheti a végrehajtó hatalom alá rendelt közigazgatási szervek döntéseit. A választás után <strong>3 vezető tisztségviselő összesen 18 évig</strong> marad pozícióban.'}}
 
-    {{> vegrehajtas }}
+    {{> chapter ds=hundata id='vegrehajtas' title='Végrehajtás' color='cl3' desc='A végrehajtó hatalom csúcsszerve a Kormány, azonban az utóbbi években számos, hagyományosan a Kormány és a végrehajtó hatalom hatáskörébe tartozó feladatot szerveztek ki a mindenkori Kormánytól de jure független szervekhez. Ezen szervek vezetőit a Kormány hivatalos úton nem utasíthatja, és csak nagyon korlátozott esetekben mozdíthatja el. A 2022-es választás után <strong>6 vezető tisztségviselő összesen 48 évig</strong> marad hivatalban.' }}
 
-    {{> egyeb }}
+    {{> chapter ds=hundata id='egyeb' title='Egyéb hivatalok' color='cl4' desc='A magyar alkotmányos rendszerben számos olyan közjogi tisztségviselő és szerv van, amelyek nem sorolhatók be tisztán egyik hatalmi ág alá sem, azonban jelentős szerepük van az állam működőképességének fenntartásában, vagy éppen fékként és ellensúlyként szolgálnak a többi hatalmi ággal szemben. Ha ezen szervek hivatali hatalmukat obstruktív módon a kormánnyal szemben gyakorolják, az nemcsak a Kormány mozgásterét szűkíti, hanem alapvetően veszélyeztetheti az állam működését. A választásokat követően <strong>21 tisztviselő</strong> marad pozícióban megközelítőleg <strong>legalább 90 évig.</strong>' }}
 </div>
+
+
 
 
 

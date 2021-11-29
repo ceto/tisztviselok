@@ -1,0 +1,33 @@
+<div id="{{id}}" class="chapter pagewrap novpad" data-magellan-target="{{id}}">
+    <div class="narrowwrap">
+        <div class="sticky" data-sticky data-margin-top="1" data-margin-top="0" data-sticky-on="small" data-anchor="{{id}}">
+            <h2 class="chapter__title {{color}}">{{title}}</h2>
+        </div>
+        <div class="chapter__intro">
+            <p>{{safehtml desc}}</p>
+        </div>
+        <div id="chapterdata-{{id}}" class="chapter__data">
+            <div class="sticky" data-sticky data-margin-top="0" data-sticky-on="small" data-anchor="chapterdata-{{id}}">
+            {{> theaxis }}
+            </div>
+            {{#each ds}}
+            {{#ifequal hatalmiag ../title}}
+            <div class="office">
+                <h3 class="office__title">{{intezmeny}}</h3>
+                <div class="office__intro">
+                    <p>
+                        {{feladat}}
+                    </p>
+                </div>
+                <div class="office__data">
+                    {{#each nevpoziciok}}
+                        {{svgbar ../../color datestart dateend custominfo }}
+                        <p style="margin-right: {{rightspacecalc dateend}}%;">{{nevpozicio}}</p>
+                    {{/each}}
+                </div>
+            </div>
+            {{/ifequal}}
+            {{/each}}
+        </div>
+    </div>
+</div>
