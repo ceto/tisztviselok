@@ -1,8 +1,8 @@
 [
     {
         "hatalmiag": "Legislative",
-        "intezmeny": "Állami Számvevőszék",
-        "feladat": "Feladata a közpénzek elköltésének ellenőrzés, pártok gazdálkodásának törvényességi ellenőrzése. Ebben a körben a pártok számára fizetési kötelezettséget állapíthat meg.",
+        "intezmeny": "State Audit Office",
+        "feladat": "It is responsible for auditing the spending of public funds and supervising the legality of the financial management of political parties. In that respect it may impose payment obligations for political parties.",
         "nevpoziciok": [
             {
                 "nevpozicio": "Domokos László (elnök)",
@@ -13,8 +13,8 @@
     },
     {
         "hatalmiag": "Legislative",
-        "intezmeny": "Költségvetési Tanács",
-        "feladat": "Az Országgyűlés törvényhozási munkáját segítő testület. A költségvetési törvény elfogadásához a Tanács hozzájárulása szükséges, amit megtagadhat, ha meglátása szerint a költségvetési javaslat nem felel meg az államadósság-fék szabálynak. A már elfogadott költségvetés módosítását is megvétózhatja, és jelenősen korlátozhatja a Kormány és a Parlament pénzügyi mozgásterét.",
+        "intezmeny": "Fiscal Council",
+        "feladat": "It is a body supporting the legislative work of the National Assembly. The adoption of the act on the budget requires the consent of the Council, which may refuse to give its consent if, in its view, the proposal of the budget does not comply with the rules on public debt control. It may also veto the amendment of the adopted budget and may significantly limit the margins of fiscal maneuver of the Government or the Parliament.",
         "nevpoziciok": [
             {
                 "nevpozicio": "Dr. Kovács Árpád (elnök)",
@@ -25,8 +25,8 @@
     },
     {
         "hatalmiag": "Judiciary",
-        "intezmeny": "Kúria",
-        "feladat": "A bírósági szervezetrendszer legmagasabb fóruma, feladatai közé tartozik a jogegységesítés, aminek keretében 2020-tól korlátozott precedens rendszer működik. Eszerint a Kúria ítéleteitől az alsóbb szintű bíróságok csak kifejezett indokolással térhetnek el. Elnökének a bíróságok feletti tekintélye mellett kiemelkedő szerepe van az ügyelosztásban, a tanácsok összetételében és a Kúrián belüli bírói előmenetelben.",
+        "intezmeny": "Curia",
+        "feladat": "It is the highest forum in the organizational structure of the judiciary, its responsibilities include legal harmonization as part of which a limited case-law system has been introduced in 2020. Accordingly, lower courts may deviate from the judgments of the Curia only by expressly referring to the reasons thereof. Its President, beside his authority over courts, has a substantial role in the assignment of cases to judges, in determining the composition of judicial chambers and the promotion of judges within the Curia.",
         "nevpoziciok": [
             {
                 "nevpozicio": "dr. Varga Zs. András (elnök)",
@@ -37,8 +37,8 @@
     },
     {
         "hatalmiag": "Judiciary",
-        "intezmeny": "Legfőbb Ügyészség",
-        "feladat": "Az ügyészi szervezetrendszer csúcsa, az állami vádmonopólium letéteményese. A Legfőbb Ügyésznek az ügyészi vádemelésre és vádképviseletre döntő befolyása van. Ha az ügyészség nem emel vádat, a bíróság sem járhat el. ",
+        "intezmeny": "Office of the Prosecutor General",
+        "feladat": "It is the highest organ within the organizational structure of the prosecution, and the representative of the state’s monopoly of prosecution. The Prosecutor General has a decisive influence on laying and representing charges by prosecutors. If the prosecution lays no charges, the courts cannot proceed in the case.",
         "nevpoziciok": [
             {
                 "nevpozicio": "dr. Polt Péter (Legfőbb Ügyész)",
@@ -49,8 +49,8 @@
     },
     {
         "hatalmiag": "Judiciary",
-        "intezmeny": "Országos Bírósági Hivatal",
-        "feladat": "A bíróságok központi igazgató szerve. Elnökének alapvető hatása van a bírósági szervezetre a bírói pályázatok, kinevezés, teljesítményértékelés, előmenetel körében őt megillető jogkörök és egyéb eszközök útján.",
+        "intezmeny": "National Office for the Judiciary",
+        "feladat": "It is the central administrative organ of courts. Its President has a fundamental impact on the organizational system of the judiciary through his powers concerning job applications of judges, appointments, assessments of job performance and promotions, and by other means.",
         "nevpoziciok": [
             {
                 "nevpozicio": "Dr. Senyei György Barna (elnök)",
@@ -61,8 +61,8 @@
     },
     {
         "hatalmiag": "Executive",
-        "intezmeny": "Nemzeti Adatvédelmi és Információszabadság Hatóság",
-        "feladat": "Az adatvédelmi és információszabadsággal kapcsolatos jogok és kötelezettségek betartását ellenőrzi. Adatvédelmi hatósági eljárást indíthat magánszemélyekkel és szervezetekkel szemben egyaránt, valamint ráhatása van a közérdekű adatok nyilvánosságával kapcsolatos joggyakorlat kialakítására.",
+        "intezmeny": "National Authority for Data Protection and Freedom of Information",
+        "feladat": "It is responsible for monitoring the observance of rights and obligations related to data protection and freedom of information. It may initiate administrative procedures for data protection against natural and legal persons alike, and it has an influence on developing the case-law related to the access to data of public interest.",
         "nevpoziciok": [
             {
                 "nevpozicio": "dr. Péterfalvi Attila (elnök)",
@@ -73,8 +73,8 @@
     },
     {
         "hatalmiag": "Executive",
-        "intezmeny": "Országos Atomenergia Hivatal",
-        "feladat": "Nukleáris létesítmények, a radioaktív hulladéktárolók, valamint a radioaktív anyagok biztonságával és védettségével kapcsolatos hatósági felügyeletet lát el. Hatáskörébe tartozik többek között Paks II. engedélyezése is. 2022. január 1-től önálló szabályozó szervként fog működni.",
+        "intezmeny": "Hungarian Atomic Energy Authority",
+        "feladat": "It is responsible for the official supervision related to the safety and protection of nuclear installations, radioactive waste storage facilities, and radioactive material. Its responsibilities include the authorization of Paks II. It will operate as an independent regulatory authority as of 1 January 2022.",
         "nevpoziciok": [
             {
                 "nevpozicio": "Kádár Andrea Beatrix  (főigazgató, 2022-től elnök)",
@@ -85,8 +85,8 @@
     },
     {
         "hatalmiag": "Executive",
-        "intezmeny": "Magyar Energetikai és Közmű-szabályozási Hivatal",
-        "feladat": "Önálló szabályozó szervként alapvető befolyása van a stratégiai jelentőségű és meghatározó gazdasági súlyú energiaszektorban, például engedélyek kiadásával vagy piacbefolyásolással.",
+        "intezmeny": "Hungarian Energy and Public Utility Regulatory Authority",
+        "feladat": "As an independent regulatory authority it has a substantial influence on the energy sector, which has strategic importance and a decisive role in the economy, for example, by means of issuing authorizations or by regulating the market.",
         "nevpoziciok": [
             {
                 "nevpozicio": "Horváth Péter János (elnök)",
@@ -97,34 +97,34 @@
     },
     {
         "hatalmiag": "Executive",
-        "intezmeny": "Médiatanács",
-        "feladat": "Feladatai közé tartozik a médiapiaci fúziók engedélyezése, frekvenciaelosztás és médiapluralizmus elősegítése. Vagy éppen hátráltatása: a kormányzati kampányreklámok társadalmi célú reklámmá minősítése utóbbi irányba tett erőteljes lépés.",
+        "intezmeny": "Media Council",
+        "feladat": "Its responsibilities include the authorization of mergers in the media market, the allocation of frequencies and the promotion of media pluralism. Or its obstruction, as the case may be: the re-classification of advertisements of the governmental campaign as advertisements for public purposes was a great step in the direction of the latter.",
         "nevpoziciok": [
             {
                 "nevpozicio": "dr. Karas Monika (elnök) idő előtt lemondott, újabb kinevezés várható, további 9 évre",
                 "datestart": "2013.09.09.",
                 "dateend": "2031.01.01.",
-                "custominfo": "Megbizatásának ideje: 2013.09.09. Idő előtt lemondott, újabb kinevezés várható, további 9 évre"
+                "custominfo": "Megbizatásának ideje: 2013.09.09. Resigned before her end of term, a new appointment is expected for another 9 years"
             }
         ]
     },
     {
         "hatalmiag": "Executive",
-        "intezmeny": "Nemzeti Média- és Hírközlési Hatóság",
-        "feladat": "Médiafelügyeleti hatóságként a médiapiacot jelentősen befolyásoló hatalmi tényező frekvenciapályázatok lebonyolításán és a szektorra vonatkozó szabályozás megalkotásán keresztül. Önálló szerve a Médiatanács. ",
+        "intezmeny": "National Media and Infocommunications Authority",
+        "feladat": "As a media supervisory authority it is an actor vested with powers and significant influence on the media market by means of managing frequency tender procedures and adopting sector specific regulations. The Media Council is its independent body.",
         "nevpoziciok": [
             {
                 "nevpozicio": "dr. Karas Monika (elnök) idő előtt lemondott, újabb kinevezés várható, további 9 évre",
                 "datestart": "2013.08.19.",
                 "dateend": "2031.01.01.",
-                "custominfo": "Megbizatásának ideje: 2013.08.19. Idő előtt lemondott, újabb kinevezés várható, további 9 évre"
+                "custominfo": "Megbizatásának ideje: 2013.08.19. resigned before her end of term, a new appointment is expected for another 9 years"
             }
         ]
     },
     {
         "hatalmiag": "Executive",
-        "intezmeny": "Szabályozott Tevékenységek Felügyeleti Hatósága",
-        "feladat": "Feladata a szerencsejáték és dohányipari, a bírósági végrehajtás valamint a felszámolói koncessziók, engedélyek kezelése és ellenőrzése. Mindez rendkívül nagy gazdasági súlyt ad a hatóságnak.",
+        "intezmeny": "Supervisory Authority for Regulated Services",
+        "feladat": "It is responsible for managing and supervising concessions and authorizations related to gambling, tobacco, judicial execution, and liquidators. As result, the authority has particularly significant economic powers.",
         "nevpoziciok": [
             {
                 "nevpozicio": "Biró Marcell (elnök)",
@@ -135,8 +135,8 @@
     },
     {
         "hatalmiag": "Other",
-        "intezmeny": "Alapvető jogok biztosa",
-        "feladat": "Információkérési és belépési joga van a közintézményekbe, alapjogvédelmi feladatkörében pedig tényfeltáró munkát végez. Elsősorban a nyilvánosság erejével hathat a közéletre, azonban 2021. január 1. óta hozzá tartoznak a megszüntetett Egyenlő Bánásmód Hatósága hatáskörébe tartozott diszkriminációs ügyek is.",
+        "intezmeny": "Commissioner for Fundamental Rights",
+        "feladat": "He has the right to request information and to enter public institutions and carries out fact-finding activities as part of his responsibilities to protect fundamental rights. He can make an impact on public life primarily by means of public disclosures, but since 1 January 2021 he is also in charge of discrimination cases formerly falling within the competence of the now dissolved Authority for Equal Treatment.",
         "nevpoziciok": [
             {
                 "nevpozicio": "dr. Kozma Ákos (Ombudsman)",
@@ -147,8 +147,8 @@
     },
     {
         "hatalmiag": "Other",
-        "intezmeny": "Alkotmánybíróság",
-        "feladat": "Az Alaptörvény legfőbb őre és autentikus értelmezője. Elsősorban a frissen megalkotott jogszabályok (az ún. előzetes normakontroll) és a már hatályban lévő jogszabályok megsemmisítésére (utólagos normakontroll) vonatkozó jogkörén, valamint az alkotmányjogi panasz intézményén keresztül van alapvető jelentősége, de szerepe van például a Köztársasági Elnök pozíciójától való megfosztási eljárásban is.",
+        "intezmeny": "Constitutional Court",
+        "feladat": "The supreme guardian and authentic interpreter of the Fundamental Law. Its substantial importance is primarily due to its powers to annul newly adopted legal regulations (so-called preliminary norm control) and legal regulations already in force (posterior norm control), and by means of the institution of constitutional complaints, but it also has an important role, for example, in the procedure to remove the President of the Republic from office.",
         "nevpoziciok": [
             {
                 "nevpozicio": "dr. Pokol Béla (tag)",
@@ -229,8 +229,8 @@
     },
     {
         "hatalmiag": "Other",
-        "intezmeny": "Köztársasági Elnök",
-        "feladat": "Alapvetően protokolláris szerepe van, azonban potenciálisan többféleképpen akadályozhatja az állam működését. Így például nem írja alá a már elfogadott törvényeket vagy obstruktív módon gyakorolja a miniszterek, bírák, rektorok, professzorok, a Kúria elnöke, a Legfőbb Ügyész és számos más hivatalnok kinevezésére vonatkozó jogát.",
+        "intezmeny": "President of the Republic",
+        "feladat": "His functions are mainly of ceremonial nature but can potentially hinder the operation of the state in several ways. For example, if he does not sign the already adopted laws or exercises his rights to appoint ministers, judges, rectors, professors, the President of the Curia, the Prosecutor General and many other officials in an obstructive manner.",
         "nevpoziciok": [
             {
                 "nevpozicio": "dr. Áder János, utódját a jelenlegi parlament választja 5 évre",
@@ -241,8 +241,8 @@
     },
     {
         "hatalmiag": "Other",
-        "intezmeny": "Magyar Nemzeti Bank és Monetáris Tanács",
-        "feladat": "Jegybankként alapvető ráhatása van a gazdasági életre az alapkamat meghatározásán, felügyeleti hatósági jogkörein és piaci intervenciók útján. Saját nyereségét nem köteles befizetni a költségvetésbe, abból alapítványokat működtethet és állami kontroll nélkül költekezhet.",
+        "intezmeny": "Hungarian National Bank and the Monetary Council",
+        "feladat": "As the central bank, it has a fundamental influence on economic life by means of setting the base interest rate, its powers as supervisory authority and market interventions. It is not obliged to pay its own profit to the central budget but may use such funds to finance foundations and make expenditures without any control by the state.",
         "nevpoziciok": [
             {
                 "nevpozicio": "dr. Matolcsy György (elnök)",
@@ -253,21 +253,21 @@
     },
     {
         "hatalmiag": "Other",
-        "intezmeny": "Médiaszolgáltatás-támogató és Vagyonkezelő Alap (MTVA)",
-        "feladat": "A közszolgálati műsorgyártással jelentős kulturális befolyással és információs hatalommal rendelkezik. A műsorokat a Duna Médiaszolgáltató Nonprofit Zrt. részére gyártja. Kezelője a Médiatanács.",
+        "intezmeny": "Media Services Support and Asset Management Fund (MTVA)",
+        "feladat": "It has a significant cultural impact and information power by mans of public service broadcasting production. Its programs are produced for Duna Media Services Nonprofit Zrt. It is managed by the Media Council.",
         "nevpoziciok": [
             {
                 "nevpozicio": "Papp Dániel (vezérigazgató), megbizatása határozatlan időre szól ",
                 "datestart": "2018.10.01.",
                 "dateend": "2034.01.01.",
-                "custominfo": "Megbizatásának ideje: 2018.10.01. Megbizatása határozatlan időre szól"
+                "custominfo": "Megbizatásának ideje: 2018.10.01. Mandate held for an indefinite period"
             }
         ]
     },
     {
         "hatalmiag": "Other",
-        "intezmeny": "Nemzeti Választási Bizottság (NVB)",
-        "feladat": "Az NVB dönt többek között népszavazásra szánt kérdések hitelesítéséről és felülvizsgálhatja a választásokkal kapcsolatos döntéseket, eredményeket, valamint elbírálja a választási eljárással kapcsolatos panaszokat. Az NVB jogalkalmazó szerepét (választások eredményének megállapítása, kifogások elbírálása) némileg tompítja a Kúria felülvizsgálati jogköre.",
+        "intezmeny": "National Election Commission (NVB)",
+        "feladat": "The National Election Commission (NVB) is entitled to adopt a decision inter alia, about the verification of questions intended for a referendum and may review decisions related to and results of elections and may adjudge complaints concerning the election procedure. The quasi-judicial role of the NVB (declaring the results of elections, adjudication of complaints) is somewhat lessened by the powers of judicial review of the Curia.",
         "nevpoziciok": [
             {
                 "nevpozicio": "dr. Téglási András (elnök)",
@@ -278,8 +278,8 @@
     },
     {
         "hatalmiag": "Other",
-        "intezmeny": "Nemzeti Választási Iroda (NVI)",
-        "feladat": "Az NVI autonóm szervként felel a választások technikai lebonyolításáért és a választások tisztaságáért.",
+        "intezmeny": "National Election Office (NVI)",
+        "feladat": "The National Election Office (NVI), as an autonomous body, is responsible for the technical arrangements and the fairness of elections.",
         "nevpoziciok": [
             {
                 "nevpozicio": "dr. Nagy Attila Mihály (elnök)",
