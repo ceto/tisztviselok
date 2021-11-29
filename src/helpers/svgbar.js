@@ -1,5 +1,5 @@
 const handlebars = require('handlebars');
-module.exports = function(color='', datestart='2010.01.01.', dateend='2033.12.31.', custominfo='') {
+module.exports = function(color='', datestart='2010.01.01.', dateend='2033.12.31.', custominfo='', lang='hu') {
 
     function shadeColor(color, percent) {
 
@@ -26,6 +26,14 @@ module.exports = function(color='', datestart='2010.01.01.', dateend='2033.12.31
     var hundredpercent = (Date.parse('2033.12.31.') - Date.parse('2010.01.01.'))/1000;
     
     var svgtitle='Megbízatásának ideje: ' + datestart + ' - ' + dateend;
+    if (lang !== 'hu' ) {
+        let o = new Intl.DateTimeFormat("en" , {
+            dateStyle: "short"
+        });
+        var sd = new Date(Date.parse(datestart));
+        var ed = new Date(Date.parse(dateend));
+        svgtitle='Appointment term: ' + o.format(sd) + ' - ' + o.format(ed);
+    }
     if (custominfo!=='') {
         svgtitle = custominfo;
     }

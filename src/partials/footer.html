@@ -1,3 +1,18 @@
+<div class="pagewrap">
+    <div class="narrowwrap">
+        <section class="widget">
+            <h3 class="widget__title">Megosztom másokkal</h3>
+            <div class="widget__body">
+                <ul class="sharelist">
+                    <li><a href="https://www.facebook.com/sharer.php?u={{ permalink }}" class="sharebtn">{{ svginsert 'facebook' root }}</a></li>
+                    <li><a href="https://twitter.com/intent/tweet?text={{title}}&url={{ permalink }}" class="sharebtn">{{ svginsert 'twitter' root }}</a></li>
+                    <li><a href="https://www.linkedin.com/shareArticle?mini=true&url={{ permalink }}" class="sharebtn">{{ svginsert 'linkedin' root }}</a></li>
+                    <li><div class="fb-like" data-href="{{ permalink }}" data-width="" data-layout="button_count" data-size="large" data-action="recommend" data-share="false"></div></li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</div>
 <div class="pagewrap fullwidth novpad xlight">
     <div class="sitefooter narrowwrap">
         <div class="sitefooter__logos">
@@ -14,3 +29,5 @@
         </p>
     </div>
 </div>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v8.0&appId=171677096215391&autoLogAppEvents=1" nonce="QrDwDLUG"></script>

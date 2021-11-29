@@ -19,3 +19,53 @@ a {
         // color: $color-blue;
     }
 }
+
+
+.sharelist {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: .25em;
+    margin: 0;
+    padding: 0;
+    > li {
+        display: inline-block;
+        // &:not(:last-child()) {
+        //     margin-right: 0.25em;
+        // }
+        &:last-child() {
+            margin-left: auto;
+        }
+    }
+}
+
+.widget__title {
+    font-size: 1.25rem;
+    margin:0 0 .25em;
+}
+.sharebtn {
+    display: flex;
+    // padding: 0.4666em;
+    align-items: center;
+    text-align: center;
+
+    width: 2.333em;
+    height: 2.333em;
+    background-color: $cl-gray-xlight;
+    border: 1px solid currentColor;
+    // border-radius: 50%;
+    font-size: 0.875rem;
+    line-height: 1;
+    color: $cl-gray;
+
+    &:hover,
+    &:focus {
+        color: $white;
+        background-color: $cl-gray;
+    }
+    .icon {
+        margin: 0 auto;
+        width:1.25em;
+        fill: currentColor;
+    }
+}

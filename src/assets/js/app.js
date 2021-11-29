@@ -15,11 +15,10 @@ require('foundation-sites');
 // the line below
 // import './lib/foundation-explicit-pieces';
 
-import 'waypoints/lib/noframework.waypoints.js';
+// import 'waypoints/lib/noframework.waypoints.js';
 
 
 $(document).foundation();
-
 
 AOS.init({
 
@@ -30,24 +29,15 @@ $('.startgomb').on("click", function(e) {
     $(this).addClass('dontshow');
 });
 
-// We listen to the resize event
-window.addEventListener('resize', () => {
-    // We execute the same script as before
-    let vh = window.innerHeight * 0.01;
-    document.documentElement.style.setProperty('--vh', `${vh}px`);
-});
+// window.addEventListener('resize', () => {
+//     let vh = window.innerHeight * 0.01;
+//     document.documentElement.style.setProperty('--vh', `${vh}px`);
+// });
 
 var leadbasebottom = 0; 
-var afterbannerbasetop = 0;
-// var vh = window.innerHeight * 0.01;
-// document.documentElement.style.setProperty('--vh', `${vh}px`);
-
 
 function poscheck(){
-    // vh = window.innerHeight * 0.01;
-    // document.documentElement.style.setProperty('--vh', `${vh}px`);
     leadbasebottom = window.innerHeight - ( $('.thelead').offset().top + $('.thelead').height() ); 
-    
 }
 $(document).ready(function () {
     poscheck();
@@ -56,14 +46,9 @@ $(window).resize(function () {
     poscheck();
 });
 
-$(document).on('scroll', function () {
-    // poscheck();
-    // console.log($(window).scrollTop() - leadbasebottom + " --- " + leadbasebottom + ' --- ' + window.innerHeight + ' --- ' + ( $(window).scrollTop()) );
-    
+$(document).on('scroll', function () {    
 
     $('.startgomb').addClass('dontshow');
-
-
     
     if ( $(window).scrollTop() === 0 ) {
         $('.banner').css('transform', 'translate3d(0, 0, 0)');
@@ -72,11 +57,7 @@ $(document).on('scroll', function () {
         
     } else if ( ( ($(window).scrollTop() - leadbasebottom ) > 0) && ( ($(window).scrollTop() - leadbasebottom ) <= window.innerHeight) && ( (window.innerHeight + $(window).scrollTop())>0  )) {
         var ytolas = 0 - ($(window).scrollTop() - leadbasebottom );
-        // console.log('itt kell ügyeskedni' + ytolas + 'px');
         $('.banner').css('transform', 'translate3d(0,' + ytolas +'px, 0)');
-        // $('.banner').css('bottom', ytolas +'px')
     } else if ( $(window).scrollTop() < leadbasebottom ) {
-        // console.log('elején vagyok');
-        // window.scrollTo({top:leadbasebottom, behavior:'auto'});
     }  
 });
