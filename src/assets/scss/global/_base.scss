@@ -67,3 +67,21 @@ img {
         width:100%;
     }
   }
+
+.cc-window {
+    font-size:.75rem;
+    background-color: #fff;
+    box-shadow: 0 0 .75rem 0 rgba(#000,.025);
+}
+.cc-window.cc-floating {
+
+    padding: .875em 1.25em;
+    max-width: 25em;
+}
+
+.cc-floating .cc-message {
+    margin-bottom: .5em;
+}
+.cc-link {
+    display: inline;
+}

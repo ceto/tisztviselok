@@ -67,6 +67,9 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
+
+@import 'node_modules/cookieconsent/build/cookieconsent.min';
+
 @import 'global/base';
 @import 'global/typography';
 @import 'layouts/pagewrap';

@@ -12,6 +12,7 @@
   "license": "MIT",
   "dependencies": {
     "aos": "^2.3.4",
+    "cookieconsent": "3",
     "foundation-sites": "latest",
     "jquery": "^3.6.0",
     "motion-ui": "latest",
