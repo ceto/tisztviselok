@@ -30,7 +30,7 @@ window.cookieconsent.initialise({
         // popup: {background: "#efefef"},
         // button: {background: "#aa0000"},
     },
-    revokable:true,
+    revokable:false,
     onStatusChange: function(status) {
      console.log(this.hasConsented() ?
       'enable cookies' : 'disable cookies');

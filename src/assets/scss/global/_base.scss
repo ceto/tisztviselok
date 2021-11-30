@@ -72,12 +72,23 @@ img {
     font-size:.75rem;
     background-color: #fff;
     box-shadow: 0 0 .75rem 0 rgba(#000,.025);
+    transition: opacity 1s ease;
+    transition-delay: 2700ms;
+
+    &.cc-invisible {
+        transition-delay: 200ms;
+    }
 }
 .cc-window.cc-floating {
 
     padding: .875em 1.25em;
     max-width: 25em;
+
+    @media screen and (max-width: 414px) and (orientation: portrait), screen and (max-width: 736px) and (orientation: landscape) {
+        max-width: none;
+    }
 }
+
 
 .cc-floating .cc-message {
     margin-bottom: .5em;
