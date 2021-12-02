@@ -1,7 +1,13 @@
 <div class="pagewrap">
     <div class="narrowwrap">
         <section class="widget">
-            <h3 class="widget__title">Megosztom másokkal</h3>
+            <h3 class="widget__title">
+            {{#ifequal lang "hu"}}
+            Megosztom másokkal
+            {{else}}
+            Share this
+            {{/ifequal}}
+            </h3>
             <div class="widget__body">
                 <ul class="sharelist">
                     <li><a href="https://www.facebook.com/sharer.php?u={{ permalink }}" class="sharebtn">{{ svginsert 'facebook' root }}</a></li>
@@ -17,14 +23,16 @@
     <div class="sitefooter narrowwrap">
         <div class="sitefooter__logos">
             <a href="https://helsinki.hu/"><img src="{{root}}assets/img/helsinkilogo.png"></a>
-            <img src="{{root}}assets/img/svenskalogo.png">
+            <a target="_blank" href="https://postkodstiftelsen.se/en/"><img src="{{root}}assets/img/svenskalogo.png"></a>
         </div>
 
         <p>
             {{#ifequal lang "hu"}}
-            Készült a Magyar Helsinki Bizottság megbízásából, a Svenska Postkodstiftelsen támogatásával.<br>Adat: 2021. november 30.
+            Készült a <a target="_blank" href="https://helsinki.hu/">Magyar Helsinki Bizottság</a> megbízásából, a <a target="_blank" href="https://postkodstiftelsen.se/en/">Svenska Postkodstiftelsen</a> támogatásával.<br>Adat: 2021. november 30. &middot;
+            Koncepció és grafika: <a target="_blank" href="https://www.szemann.com/">Szémann Tamás</a> &middot; Sitebuild: <a target="_blank" href="https://hydrogene.hu/">Hydrogene</a>
             {{else}}
-            Made on behalf of the Hungarian Helsinki Committee, supported by the Swedish Postcode Foundation.<br>Data: November 30, 2021
+            Made on behalf of the <a target="_blank" href="https://helsinki.hu/en/">Hungarian Helsinki Committee,</a> supported by the <a target="_blank" href="https://postkodstiftelsen.se/en/">Swedish Postcode Foundation.</a><br>Data: November 30, 2021 &middot;
+            Concept and graphics: <a target="_blank" href="https://www.szemann.com/">Tamás Szémann</a> &middot; Sitebuild: <a target="_blank" href="https://hydrogene.hu/">Hydrogene</a>
             {{/ifequal}}
         </p>
     </div>
