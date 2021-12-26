@@ -14,7 +14,7 @@
     {
         "hatalmiag": "Törvényhozás",
         "intezmeny": "Költségvetési Tanács",
-        "feladat": "Az Országgyűlés törvényhozási munkáját segítő testület. A költségvetési törvény elfogadásához a Tanács hozzájárulása szükséges, amit megtagadhat, ha meglátása szerint a költségvetési javaslat nem felel meg az államadósság-fék szabálynak. A már elfogadott költségvetés módosítását is megvétózhatja, és jelenősen korlátozhatja a Kormány és a Parlament pénzügyi mozgásterét.",
+        "feladat": "Az Országgyűlés törvényhozási munkáját segítő testület. A költségvetési törvény elfogadásához a Tanács hozzájárulása szükséges, amit megtagadhat, ha meglátása szerint a költségvetési javaslat nem felel meg az államadósság-fék szabálynak. A már elfogadott költségvetés módosítását is megvétózhatja, és jelenősen korlátozhatja a kormány és a parlament pénzügyi mozgásterét.",
         "nevpoziciok": [
             {
                 "nevpozicio": "Dr. Kovács Árpád (elnök)",
@@ -101,10 +101,9 @@
         "feladat": "Feladatai közé tartozik a médiapiaci fúziók engedélyezése, frekvenciaelosztás és médiapluralizmus elősegítése. Vagy éppen hátráltatása: a kormányzati kampányreklámok társadalmi célú reklámmá minősítése utóbbi irányba tett erőteljes lépés.",
         "nevpoziciok": [
             {
-                "nevpozicio": "dr. Karas Monika (elnök) idő előtt lemondott, újabb kinevezés várható, további 9 évre",
-                "datestart": "2013.09.09.",
-                "dateend": "2031.01.01.",
-                "custominfo": "Megbizatásának ideje: 2013.09.09. Idő előtt lemondott, újabb kinevezés várható, további 9 évre"
+                "nevpozicio": "Dr. Koltay András (elnök)",
+                "datestart": "2021.12.14.",
+                "dateend": "2030.12.14."
             }
         ]
     },
@@ -114,8 +113,8 @@
         "feladat": "Médiafelügyeleti hatóságként a médiapiacot jelentősen befolyásoló hatalmi tényező frekvenciapályázatok lebonyolításán és a szektorra vonatkozó szabályozás megalkotásán keresztül. Önálló szerve a Médiatanács. ",
         "nevpoziciok": [
             {
-                "nevpozicio": "dr. Karas Monika, majd Dr. Koltay András (elnök)",
-                "datestart": "2013.08.19.",
+                "nevpozicio": "Dr. Koltay András (elnök)",
+                "datestart": "2021.12.04.",
                 "dateend": "2030.12.04."
             }
         ]
@@ -232,7 +231,7 @@
         "feladat": "Alapvetően protokolláris szerepe van, azonban potenciálisan többféleképpen akadályozhatja az állam működését. Így például nem írja alá a már elfogadott törvényeket vagy obstruktív módon gyakorolja a miniszterek, bírák, rektorok, professzorok, a Kúria elnöke, a Legfőbb Ügyész és számos más hivatalnok kinevezésére vonatkozó jogát.",
         "nevpoziciok": [
             {
-                "nevpozicio": "dr. Áder János, utódját a jelenlegi parlament választja 5 évre",
+                "nevpozicio": "dr. Áder János mandátuma legkésőbb 2022. május 10-én lejár, utódját is a jelenlegi parlament választja 5 évre",
                 "datestart": "2012.05.10.",
                 "dateend": "2027.03.13."
             }
