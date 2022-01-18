@@ -79,11 +79,14 @@
         z-index: -1;
         position: absolute;
         content:'';
-        top:8rem;
+        top:7.5rem;
         left:51.25%;
         bottom:1.5rem;
         width: 1px;
         border-left:1px dashed $cl-gray-light;
+        @include breakpoint($bp-tablet) {
+            top:8.125rem
+        }
     }
 
     .sticky {
